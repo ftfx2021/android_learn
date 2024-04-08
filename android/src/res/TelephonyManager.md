@@ -15,7 +15,7 @@ frameworkds\base\telephony\java\android\telephony
 |    ITelephonyRegistry.aidl   |   ITelephonyRegistry.java    | telephony registry |
 
 
-## TelecomServiceImpl
+## TelecomServiceImpl（新版变更到在TelepcomManager）
  
 - 在TelecomLoaderService.java将自己注册到ServiceManager	addService(...)
 - 在TelepcomManager(?)中通过ServiceManager得到Telecom Service  getTelecomService()
@@ -55,8 +55,45 @@ static IPhoneSubInfo getSubscriberInfoService()
 - ServiceManager.addService(...)
 - PhoneInterfanceManager的方法 最终由Phone实现
 
-## telephony.registry Service
+## telephony.registry Service（新版变更）
 
 负责管理电话相关的注册信息和通知，以及向其他应用程序提供电话状态的更新
-
+旧
 - 在SystemServer.java将teleRegistry实例注册到ServiceManager
+- 在TelephonyManager通过ServieManager得到telephony.registry Service
+- 在TelephonyManager实现listen()监听Phone状态
+
+新
+TelephonyManager.java
+- 得到TelephonyRegistryManager
+```
+ public void registerTelephonyCallback(@IncludeLocationData int includeLocationData,
+            @NonNull @CallbackExecutor Executor executor,
+            @NonNull TelephonyCallback callback) {
+       ...
+        }
+        mTelephonyRegistryMgr = (TelephonyRegistryManager)
+                mContext.getSystemService(Context.TELEPHONY_REGISTRY_SERVICE);
+        if (mTelephonyRegistryMgr != null) {
+            mTelephonyRegistryMgr.registerTelephonyCallback(...);
+        } else {
+            ...
+        }
+    }
+```
+TelephonyRegistryManager.java
+- 得到telephony.registry
+```
+public TelephonyRegistryManager(@NonNull Context context) {
+        mContext = context;
+        if (sRegistry == null) {
+            sRegistry = ITelephonyRegistry.Stub.asInterface(
+                ServiceManager.getService("telephony.registry"));
+        }
+    }
+```
+- 在TelephonyManager实现listen()监听Phone状态
+
+## 得到TelephonyManager
+- 无参()
+- 有参(Context)
