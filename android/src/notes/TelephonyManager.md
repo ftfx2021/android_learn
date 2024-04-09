@@ -46,6 +46,26 @@ TelecomServiceImpl.java
 ```java
 static IPhoneSubInfo getSubscriberInfoService()
 ```
+
+- PhoneFactory.java中定义了一个Phone数组在makeDefaultPhone(...)中初始化，该类提供了一个get方法，用于获取Phones或Phone
+- ProxyController.java中，其构造方法调用 PhoneFactory.getPhones();并进行初始化PhoneSubInfoController对象，mPhoneSubInfoController = new PhoneSubInfoController(mContext);
+- PhoneSubInfoController.java调用其构造函数进行注册Service
+```
+ public PhoneSubInfoController(Context context) {
+        ServiceRegisterer phoneSubServiceRegisterer = TelephonyFrameworkInitializer  
+                .getTelephonyServiceManager()
+                .getPhoneSubServiceRegisterer();
+        if (phoneSubServiceRegisterer.get() == null) {
+            phoneSubServiceRegisterer.register(this);//注册
+        }
+        mAppOps = context.getSystemService(AppOpsManager.class);
+        mContext = context;
+    }
+```
+- 其中ServiceRegisterer，调用ServiceManager的addService进行注册
+- 其中TelephonyFrameworkInitializer --创建-》 ServiceManager  -创建--》 ServiceRegisterer
+- （**初始化器**  创建  **管理器**  创建  **注册器**  进行注册）
+
 ## PhoneInterfanceManager——TELEPHONY_SERVICE 
 负责封装和提供电话功能相关的接口，以便让应用程序能够方便地与设备的电话功能进行交互
 - TelephonyService依赖TELEPHONY_SERVICE实现大部分方法
