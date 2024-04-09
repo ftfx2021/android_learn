@@ -19,7 +19,7 @@ frameworkds\base\telephony\java\android\telephony
  
 - 在TelecomLoaderService.java将自己注册到ServiceManager	addService(...)
 - 在TelepcomManager(?)中通过ServiceManager得到Telecom Service  getTelecomService()
-- TelecomManager得到Telecom Service得到TelephonyManager,获取相关状态实现自己方法
+- TelecomManager得到Telecom Service,Telecom Service实现类可通过 getTelephonyManager（）得到TelephonyManager,获取相关状态实现自己方法
 
 TelepcomManager.java
 ```
