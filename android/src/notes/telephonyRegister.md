@@ -38,7 +38,7 @@ mRecords由 本类的 listen(...)维护
 
 - 根据需要监听事件，重写IPhoneStateListener接口中的方法（监听事件都在定义该接口中）
   + r.callback.onCellInfoChanged(cellInfo);
-- 调用TelephonyManager listen()->里面调用 telephonyRegistry.listenFromListener(...) listenFromListener(...)调用TelephonyRegistry中的listen方法，在里面处理Record
+- 调用TelephonyManager listen()->里面调用 telephonyRegistry.listenFromListener(...) listenFromListener(...)调用TelephonyRegistry中的 listenWithEventList方法，再调用listen方法在里面处理Record
 - 处理IPhoneStateListener接口中的方法
 - Call状态变化消息上报流程：
   + RILJ - CallTracker - Phone - DefaultPhoneNotifier - TelephonyRegistry -监听者
