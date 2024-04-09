@@ -29,6 +29,7 @@ if (isAidl()) {
 - mMockModemConfigInterface实现类为MockModemConfigBase.java  其中的dialVoiceCall调用 mVoiceService[logicalSlotId].dialVoiceCall(...)
 -  mVoiceService[logicalSlotId].dialVoiceCall()调用handler的子类的sendToTarget()进行发送
 ```
+ private MockCallStateHandler mCallStateHandler;
 mCallStateHandler
                     .obtainMessage(MSG_REQUEST_DIALING_CALL, newCall.getCallId())
                     .sendToTarget();
