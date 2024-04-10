@@ -61,6 +61,62 @@ timeViewModel:
   val event3Time
   val event3State =
 ```
+```
+formDataBean:  time:String,data:String
+envBean:time:String,humity,temp,light,ppm:String
+class EnvVM:
+    val envData = mutablestateOf(envBean)
+    val humidtyData24hour = mutablestateOf(Listof("20"))
+    val tempList = mutablestateOf(ListOf<String>("20"))
+    val light24 = mutablestateOf(ListOf<String>("20"))
+    val ppm24 = mutablestateOf(ListOf<String>("20"))
+    val time24 = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
+    val
+
+
+fun get24HourBean(properName:String,timeList){
+    val currentTimeStr = timeList.last();
+    val currentDate = LocalDateTime.parse(currentTimeStr, DateTimeFormatter.ISO_DATE_TIME)
+    val threeDaysAgoDate = dateTime.minus(3, ChronoUnit.DAYS)
+
+}
+        
+    
+    
+```
+```
+import androidx.lifecycle.ViewModel
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+
+class MyViewModel : ViewModel() {
+    // 从云端接收到的数据
+    private val _cloudData = MutableStateFlow("")
+    val cloudData: StateFlow<String> = _cloudData
+
+    // 页面数据
+    private val _pageData = MutableStateFlow("")
+    val pageData: StateFlow<String> = _pageData
+
+    // 更新云端数据
+    fun updateCloudData(newData: String) {
+        _cloudData.value = newData
+    }
+
+    // 更新页面数据
+    fun updatePageData(newData: String) {
+        _pageData.value = newData
+    }
+
+    // 发送页面数据到云端
+    fun sendPageDataToCloud() {
+        val dataToSend = _pageData.value
+        // 发送数据到云端的逻辑
+    }
+}
+
+```
+
 ## 添加功能2：定时事件
 第二页面添加闹钟设置Button
 弹出对话框，可添加三个定时事件
