@@ -65,13 +65,13 @@ timeViewModel:
 formDataBean:  time:String,data:String
 envBean:time:String,humity,temp,light,ppm:String
 class EnvVM:
-    val envData = mutablestateOf(envBean)
-    val humidtyDataList = mutablestateOf(Listof("20"))
-    val tempDataList = mutablestateOf(ListOf<String>("20"))
-    val lightDataList = mutablestateOf(ListOf<String>("20"))
+    val environmentDataList = mutablestateOf(envBean)
+    val humidityDataList = mutablestateOf(Listof("20"))
+    val temperatureDataList = mutablestateOf(ListOf<String>("20"))
+    val lightLuxDataList = mutablestateOf(ListOf<String>("20"))
     val ppmDataList = mutablestateOf(ListOf<String>("20"))
     val timeDataList = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
-     val specifiedTimeList = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
+    val specifiedTimeList = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
     val specifiedDataList = mutablestateOf(ListOf<String>("20"))
     val specifiedFormDataList = mutablestateOf(ListOf<FormDataBean>(FormDataBean()))
 
@@ -132,11 +132,32 @@ fun getSpecifiedRangeFormDataBean(dataList:List<String>,timeList,rangeDays:Int,t
     }
  updateSpecifiedFormDataList(targetFormDataBeanList);
 }
+
 fun updateEnvData(){
-
-
-
+envronmentDataList = ..
+val humidityDataList = List<String>;
+val temperatureDataList = List<String>;
+val lightLuxDataList = List<String>;
+val ppmDataList = List<String>;
+val timeList = List<String>;
+for(i in environmentDataList.indices){
+    humidityDataList.add(envronmentDataList.get(i).humidity.toString);
+    temperatureDataList.add(envronmentDataList.get(i).temperature.toString);
+    ppmDataList.add(envronmentDataList.get(i).ppm.toString);
+    temperatureDataList.add(envronmentDataList.get(i).temperature.toString);
+    lightLuxDataList.add(envronmentDataList.get(i).lightLux.toString);
+    timeList.add(envronmentDataList.get(i).time);
 }
+viewModel.updateEnvironmentDataList(envronmentDataList)
+viewModel.updateTemperatureDataList(temperatureDataList)
+viewModel.updateHumidityDataList(humidityDataList)
+viewModel.updateLightLuxDataList(lightLuxDataList)
+viewModel.updatePpmDataList(ppmDataList)
+viewModel.updateTimeList(timeList)
+}
+
+
+fun upackageData(){
 
 
 }
