@@ -66,18 +66,78 @@ formDataBean:  time:String,data:String
 envBean:time:String,humity,temp,light,ppm:String
 class EnvVM:
     val envData = mutablestateOf(envBean)
-    val humidtyData24hour = mutablestateOf(Listof("20"))
-    val tempList = mutablestateOf(ListOf<String>("20"))
-    val light24 = mutablestateOf(ListOf<String>("20"))
-    val ppm24 = mutablestateOf(ListOf<String>("20"))
-    val time24 = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
-    val
+    val humidtyDataList = mutablestateOf(Listof("20"))
+    val tempDataList = mutablestateOf(ListOf<String>("20"))
+    val lightDataList = mutablestateOf(ListOf<String>("20"))
+    val ppmDataList = mutablestateOf(ListOf<String>("20"))
+    val timeDataList = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
+     val specifiedTimeList = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
+    val specifiedDataList = mutablestateOf(ListOf<String>("20"))
+    val specifiedFormDataList = mutablestateOf(ListOf<FormDataBean>(FormDataBean()))
 
 
-fun get24HourBean(properName:String,timeList){
-    val currentTimeStr = timeList.last();
-    val currentDate = LocalDateTime.parse(currentTimeStr, DateTimeFormatter.ISO_DATE_TIME)
-    val threeDaysAgoDate = dateTime.minus(3, ChronoUnit.DAYS)
+fun getSpecifiedRangeData(dataList:List<String>,timeList,rangeDays:Int){
+    val endTimeStr = timeList.last();
+    val endDate = LocalDateTime.parse(endTimeStr, DateTimeFormatter.ISO_DATE_TIME)
+    val start = endDate.minus(rangeDays, ChronoUnit.DAYS)
+
+    val targetDataList = ListOf<String>()
+    for(i in time.indices){
+            val currentTimeStr = timeList.get(i)
+            val currentTimeDate = LocalDateTime.parse(currentTimeStr, DateTimeFormatter.ISO_DATE_TIME)
+            val comparison = currentTimeDate.compareTo(start)
+            if(comparison > 0){
+        if(i < dataList.size()){
+            targetDataList.add(dataList.get(i))
+        }
+    }
+}
+updateSpecifiedDataList(targetDataList);
+}
+fun getSpecifiedRangeTime(timeList:List<String>,rangeDays:Int,targerTimeFormat:String){
+    val endTimeStr = timeList.last();
+    val endDate = LocalDateTime.parse(endTimeStr, DateTimeFormatter.ISO_DATE_TIME)
+    val start = endDate.minus(rangeDays, ChronoUnit.DAYS)
+   
+    val targetTimeList = ListOf<String>()
+    for(i in time.indices){
+            val currentTimeStr = timeList.get(i)
+            val currentTimeDate = LocalDateTime.parse(currentTimeStr, DateTimeFormatter.ISO_DATE_TIME)
+            val comparison = currentTimeDate.compareTo(start)
+              val targetFormattedDateTime = currentTimeDate.format(DateTimeFormatter.ofPattern(targerTimeFormat))
+            if(comparison > 0){
+            targetTimeList.add(targetFormattedDateTime.get(i))
+        }
+    }
+    updateSpecifiedTimeList(targetTimeList)
+}
+
+fun getSpecifiedRangeFormDataBean(dataList:List<String>,timeList,rangeDays:Int,targerTimeFormat:String){
+     val endTimeStr = timeList.last();
+     val endDate = LocalDateTime.parse(endTimeStr, DateTimeFormatter.ISO_DATE_TIME)
+     val targetFormDataBeanList = ListOf<FormDataBean>();
+     for(i in time.indices){
+            val currentTimeStr = timeList.get(i)
+            val currentTimeDate = LocalDateTime.parse(currentTimeStr, DateTimeFormatter.ISO_DATE_TIME)
+            val comparison = 1
+            if(rangeDays!=-1){
+                 val start = endDate.minus(rangeDays, ChronoUnit.DAYS)
+                comparison = currentTimeDate.compareTo(start)
+            }
+            val targetFormattedDateTime = currentTimeDate.format(DateTimeFormatter.ofPattern(targerTimeFormat))
+            if(comparison > 0&&i < dataList.size()){
+            val formDataBean = FormDataBean(targetFormattedDateTime,dataList.get(i))
+            targetFormDataBeanList.add(formDataBean)
+        }
+    }
+ updateSpecifiedFormDataList(targetFormDataBeanList);
+}
+fun updateEnvData(){
+
+
+
+}
+
 
 }
         
