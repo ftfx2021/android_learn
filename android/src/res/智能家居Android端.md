@@ -30,7 +30,7 @@ fun send(){
       val gson = Gson()
     val autoControllerJson = gson.toJson(autoControllerBean)
     // 构建外层的 JSON 结构
-    val smartSetJson = "{\"smart_set\": {\"alarmClock\": $autoControllerJson}}"
+    val smartSetJson = "{\"smart_set\": {\"autoController\": $autoControllerJson}}"
     sendData(aliyunService,smartSetJson.toString)
 
 }
