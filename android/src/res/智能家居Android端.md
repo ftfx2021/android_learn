@@ -7,164 +7,50 @@
 ## 添加功能 1
 第二页面添加闹钟设置Button
 点击后打开time picker:https://github.com/commandiron/WheelPickerCompose
-获取系统时间：
-```kotlin
-import androidx.compose.foundation.Text
-import androidx.compose.foundation.layout.Column
-import androidx.compose.runtime.*
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.sp
-import kotlinx.coroutines.delay
-import java.util.*
-
-@Composable
-fun Clock() {
-    var currentTime by remember { mutableStateOf(Calendar.getInstance()) }
-
-    LaunchedEffect(Unit) {
-        while (true) {
-            delay(1000) // 每秒更新一次
-            currentTime = Calendar.getInstance()
-        }
-    }
-
-    val hour = currentTime.get(Calendar.HOUR_OF_DAY)
-    val minute = currentTime.get(Calendar.MINUTE)
-    val second = currentTime.get(Calendar.SECOND)
-
-    Column {
-        Text(text = "Current Time:", fontSize = 20.sp)
-        Text(text = "%02d:%02d:%02d".format(hour, minute, second), fontSize = 36.sp)
-    }
-}
-
-@Preview
-@Composable
-fun ClockPreview() {
-    Clock()
-}
-
 ```
-viewModel
-```
-timeViewModel:
-  val alarmClock=mustateof("2024-01-01 12:00);
-  fun update
-  val alarmClockState = mustateof(false)
-  val event1Name=mustateof("null")
-  val event2Time
-  val event2State =
-  val event2Name=mustateof("null")
-  val event2Time
-  val event2State =
-  val event3Name=mustateof("null")
-  val event3Time
-  val event3State =
-```
-```
-formDataBean:  time:String,data:String
-envBean:time:String,humity,temp,light,ppm:String
-class EnvVM:
-    val environmentDataList = mutablestateOf(envBean)
-    val humidityDataList = mutablestateOf(Listof("20"))
-    val temperatureDataList = mutablestateOf(ListOf<String>("20"))
-    val lightLuxDataList = mutablestateOf(ListOf<String>("20"))
-    val ppmDataList = mutablestateOf(ListOf<String>("20"))
-    val timeDataList = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
-    val specifiedTimeList = mutablestateOf(ListOf<String>("2022-05-06 12:28"))
-    val specifiedDataList = mutablestateOf(ListOf<String>("20"))
-    val specifiedFormDataList = mutablestateOf(ListOf<FormDataBean>(FormDataBean()))
-
-
-fun getSpecifiedRangeData(dataList:List<String>,timeList,rangeDays:Int){
-    val endTimeStr = timeList.last();
-    val endDate = LocalDateTime.parse(endTimeStr, DateTimeFormatter.ISO_DATE_TIME)
-    val start = endDate.minus(rangeDays, ChronoUnit.DAYS)
-
-    val targetDataList = ListOf<String>()
-    for(i in time.indices){
-            val currentTimeStr = timeList.get(i)
-            val currentTimeDate = LocalDateTime.parse(currentTimeStr, DateTimeFormatter.ISO_DATE_TIME)
-            val comparison = currentTimeDate.compareTo(start)
-            if(comparison > 0){
-        if(i < dataList.size()){
-            targetDataList.add(dataList.get(i))
-        }
-    }
-}
-updateSpecifiedDataList(targetDataList);
-}
-fun getSpecifiedRangeTime(timeList:List<String>,rangeDays:Int,targerTimeFormat:String){
-    val endTimeStr = timeList.last();
-    val endDate = LocalDateTime.parse(endTimeStr, DateTimeFormatter.ISO_DATE_TIME)
-    val start = endDate.minus(rangeDays, ChronoUnit.DAYS)
-   
-    val targetTimeList = ListOf<String>()
-    for(i in time.indices){
-            val currentTimeStr = timeList.get(i)
-            val currentTimeDate = LocalDateTime.parse(currentTimeStr, DateTimeFormatter.ISO_DATE_TIME)
-            val comparison = currentTimeDate.compareTo(start)
-              val targetFormattedDateTime = currentTimeDate.format(DateTimeFormatter.ofPattern(targerTimeFormat))
-            if(comparison > 0){
-            targetTimeList.add(targetFormattedDateTime.get(i))
-        }
-    }
-    updateSpecifiedTimeList(targetTimeList)
-}
-
-fun getSpecifiedRangeFormDataBean(dataList:List<String>,timeList,rangeDays:Int,targerTimeFormat:String){
-     val endTimeStr = timeList.last();
-     val endDate = LocalDateTime.parse(endTimeStr, DateTimeFormatter.ISO_DATE_TIME)
-     val targetFormDataBeanList = ListOf<FormDataBean>();
-     for(i in time.indices){
-            val currentTimeStr = timeList.get(i)
-            val currentTimeDate = LocalDateTime.parse(currentTimeStr, DateTimeFormatter.ISO_DATE_TIME)
-            val comparison = 1
-            if(rangeDays!=-1){
-                 val start = endDate.minus(rangeDays, ChronoUnit.DAYS)
-                comparison = currentTimeDate.compareTo(start)
-            }
-            val targetFormattedDateTime = currentTimeDate.format(DateTimeFormatter.ofPattern(targerTimeFormat))
-            if(comparison > 0&&i < dataList.size()){
-            val formDataBean = FormDataBean(targetFormattedDateTime,dataList.get(i))
-            targetFormDataBeanList.add(formDataBean)
-        }
-    }
- updateSpecifiedFormDataList(targetFormDataBeanList);
-}
-
-fun updateEnvData(){
-envronmentDataList = ..
-val humidityDataList = List<String>;
-val temperatureDataList = List<String>;
-val lightLuxDataList = List<String>;
-val ppmDataList = List<String>;
-val timeList = List<String>;
-for(i in environmentDataList.indices){
-    humidityDataList.add(envronmentDataList.get(i).humidity.toString);
-    temperatureDataList.add(envronmentDataList.get(i).temperature.toString);
-    ppmDataList.add(envronmentDataList.get(i).ppm.toString);
-    temperatureDataList.add(envronmentDataList.get(i).temperature.toString);
-    lightLuxDataList.add(envronmentDataList.get(i).lightLux.toString);
-    timeList.add(envronmentDataList.get(i).time);
-}
-viewModel.updateEnvironmentDataList(envronmentDataList)
-viewModel.updateTemperatureDataList(temperatureDataList)
-viewModel.updateHumidityDataList(humidityDataList)
-viewModel.updateLightLuxDataList(lightLuxDataList)
-viewModel.updatePpmDataList(ppmDataList)
-viewModel.updateTimeList(timeList)
-}
-
-
-fun upackageData(){
-
-
-}
-        
+data AlarmClockBean(time:String,enable:Int){
     
+}
+
+fun send(){
+
+    val alarmClockBean = ..
+      val gson = Gson()
+    val alarmClockJson = gson.toJson(alarmClockBean)
+    // 构建外层的 JSON 结构
+    val smartSetJson = "{\"smart_set\": {\"alarmClock\": $alarmClockBean}}"
+    sendData(aliyunService,smartSetJson.toString)
+}
+data AutoControllerBean(name:Sring,low:Int,high:Int,stateHigh:Int,stateLow:Int){
     
-```
+
+}
+fun send(){
+    val autoControllerBean = ..
+      val gson = Gson()
+    val autoControllerJson = gson.toJson(autoControllerBean)
+    // 构建外层的 JSON 结构
+    val smartSetJson = "{\"smart_set\": {\"alarmClock\": $autoControllerJson}}"
+    sendData(aliyunService,smartSetJson.toString)
+
+}
+data UserStateBean(username:String,realName:String,state:Int){
+    
+}
+fun send(){
+
+    val userStateBean = ..
+      val gson = Gson()
+    val userStateJson = gson.toJson(userStaterBean)
+    // 构建外层的 JSON 结构
+    val smartSetJson = "{\"smart_set\": {\"userState\": $userStateJson}}"
+    sendData(aliyunService,smartSetJson.toString)
+}
+
+```   
+
+
+
 ```
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -229,9 +115,12 @@ val timerEvent = when(eventId){
 3 -> timerEvent3.value
 else -> TimerEventBean()
 }
-     val gson = Gson()
-    val timerEventJson = gson.toJson(mapOf("smart_set" to mapOf("timerEvent" to timerEventBean)))
-    sendData(aliyunService,timerEventJson.toString)
+      val gson = Gson()
+    val timerEventJson = gson.toJson(timerEvent)
+
+    // 构建外层的 JSON 结构
+    val smartSetJson = "{\"smart_set\": {\"timerEvent\": $timerEventJson}}"
+    sendData(aliyunService,smartSetJson.toString)
 }
 ```
 
