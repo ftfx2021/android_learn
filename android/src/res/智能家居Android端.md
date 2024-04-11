@@ -166,14 +166,16 @@ Spacer(modifier = Modifier.width(16.dp))
                 Switch(checked = isEnabled, onCheckedChange = { isEnabled = it,
 val eventName=when(selectedOption){
 
-"开客厅灯" -> "livingRoomON;
-"关客厅灯" -> "livingRoomOFF"
-"开卧室灯" -> "bedRoomON"
-"关卧室灯" -> "bedRoomOFF"
-"开卫生间灯" -> "toliteON"
-"关卫生间灯" -> "toliteOFF"
-"开窗帘" -> "curtainON"
-"关窗帘" -> "curtainOFF"
+"开客厅灯" -> "LIVINGROOM_ON;
+"关客厅灯" -> "LIVINGROOM_OFF"
+"开卧室灯" -> "BEDROOM_ON"
+"关卧室灯" -> "BEDROOM_OFF"
+"开卫生间灯" -> "TOTAIL_ON"
+"关卫生间灯" -> "TOTAIL_OFF"
+"开窗帘" -> "CURTAIN_ON"
+"关窗帘" -> "CURTAIN_OFF"
+"开风扇" -> "FAN_ON"
+"关风扇" -> "FAN_OFF
 else -> "NULL"
 
 }
