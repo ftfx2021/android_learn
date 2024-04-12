@@ -1,4 +1,8 @@
 Registrants类似观察者，一对多，观察状态
+， Registantlist 为通知者， Registrant为观察者 Registrantlist 
+作为通知者 负责对通知者的增加（ add/addUnique 删除（ remove ），并且能够发出通知
+( notifyRegistrants ；而 Registrant 作为观察者，由其｜「1ternalNotifyRegist ants 方法负责响应通知者
+发出的 notifyRegistrants 通
 ## 使用：Class xxxRegistrants
 ### 创建RegistrantsList
 - 封装好增加/删除Registrant方法
