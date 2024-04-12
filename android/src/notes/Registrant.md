@@ -12,6 +12,7 @@ Registrants类似观察者，一对多，观察状态
 - 注册通知，注册后通知者发送的对应通知都能收到   xxxRegistrants.registerForxxx() 通过registerForxxx() 反推其调用者
 - **发送通知**，**通知**所有注册到 xxxRegistrants中的Registrant
 - xxxRegistrants.notifyResult(...)
+- Handle的 handleMessage 用于响应 Registrantlist 对象发出的消息通知
 ### RegistrantsList内部的方法:
 - notifyResult(obj res)(公共方法，执行internalNotifyRegistrants（）
 - internalNotifyRegistrants(...)通知Registrant列表，执行internalNotifyRegistrant()通知单个Registrant对象：handler.sendMessage(msg)
