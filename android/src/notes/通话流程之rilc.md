@@ -148,7 +148,7 @@ void RIL_onUnsolicitedResponse(int unsolResponse, const void *data,size_t datale
     }
 ```
 
-#### 
+#### s_unsolResponses
 - 跟进s_unsolResponses
 ```
 static UnsolResponseInfo s_unsolResponses[] = {
@@ -205,8 +205,8 @@ static void processLine(const char *line)
         handleFinalResponse(line);
     } 
 }
-
-####  handleUnsolicited()
+```
+#### handleUnsolicited()
 ```
 - 进入handleUnsolicited,最终还是调用了s_unsolHandler
 ```
