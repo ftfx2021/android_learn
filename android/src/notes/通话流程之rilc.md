@@ -241,7 +241,6 @@ RIL_register (const RIL_RadioFunctions *callbacks) {
 - 进入hardware/ril/libril/ril_service.cpp registerService()
 ```
 void radio::registerService(RIL_RadioFunctions *callbacks, CommandInfo *commands) {
-
     for (int i = 0; i < simCount; i++) {
         radioService[i] = new RadioImpl;
         radioService[i]->mSlotId = i;
