@@ -207,7 +207,6 @@ static void processLine(const char *line)
 }
 ```
 #### handleUnsolicited()
-```
 - 进入handleUnsolicited,最终还是调用了s_unsolHandler
 ```
 static void handleUnsolicited(const char *line)
