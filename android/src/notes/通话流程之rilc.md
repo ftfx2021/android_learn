@@ -442,7 +442,8 @@ static int at_send_command_full_nolock (const char *command, ATCommandType type,
 ```
 
 # 呼入流程之rilc
-## 从atchannel.c的processLine()开始，根据消息类型进行处理，剩就是 handleUnsolicited()->handleFinalResponse()->s_unsolHandler()(即onUnsolicited(line1, line2))->RIL_onUnsolicitedResponse()-》s_unsolResponses->ril_unsol_commands.h->callStateChangedInd()->callStateChanged()与RILJ交互
+### 从atchannel.c的processLine()开始
+- 根据消息类型进行处理，剩就是 handleUnsolicited()->handleFinalResponse()->s_unsolHandler()(即onUnsolicited(line1, line2))->RIL_onUnsolicitedResponse()-》s_unsolResponses->ril_unsol_commands.h->callStateChangedInd()->callStateChanged()与RILJ交互
 ```
 static void processLine(const char *line)
 {
