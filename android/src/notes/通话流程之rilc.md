@@ -42,8 +42,8 @@ static void *eventLoop(void *param) {
 }
 ```
 #### ril_event_loop()
-> 在安卓源码中，ril_event_loop函数是用于处理RIL（Radio Interface Layer）事件的核心部分。RIL是Android系统中用于处理无线通信接口的层，包括与Modem的通信和数据处理。ril_event_loop函数的主要作用是创建一个事件循环，用于监听和处理来自Modem的事件和请求。
-- 继续跟踪ril_event_loop() hardware/ril/libril/ril_event.cpp，使用select 监听文件描述符的变化，监听到则调用下面的对应方法进行处理，（处理timer_list、watch_table、pending_list）
+> 在安卓源码中，ril_event_loop函数是用于处理RIL（Radio Interface Layer）事件的核心部分。它负责处理来自Java层的请求和事件。并在接收到请求后调用相应的处理函数
+- 继续跟踪ril_event_loop() hardware/ril/libril/ril_event.cpp，通过select()函数监听来自Socket的请求，监听到则调用下面的对应方法进行处理，（处理timer_list、watch_table、pending_list）
 ```
 void ril_event_loop()
 {
@@ -89,6 +89,7 @@ const RIL_RadioFunctions *RIL_Init(const struct RIL_Env *env, int argc, char **a
 }
 ```
 #### mainLoop()
+> mainLoop()和ril_event_loop()是两个线程，并行执行的
 - 进入mainLoop,主要进行开启at通道和超时处理
 ```
 mainLoop(void *param __unused)
@@ -102,7 +103,7 @@ RIL_requestTimedCallback(initializeCallback, NULL, &TIMEVAL_0);
     }
 ```
 #### at_open()
-- 进入at_open，跟进at通道开启 hardware/ril/reference-ril/atchannel.c  开启线程，调用readerLoop进行处理
+- 程进入at_open，跟进at通道开启 hardware/ril/reference-ril/atchannel.c  开启一个新线程，调用readerLoop进行处理
 ```
 int at_open(int fd, ATUnsolHandler h)
 {
@@ -113,19 +114,30 @@ int at_open(int fd, ATUnsolHandler h)
 }
 ```
 #### readerLoop()
+> readerLoop()函数负责从AT通道读取一行数据，并在超时时返回NULL。
+> 先后读取line1，line2，二者通常是成对的，表示一个完整的SMS未经请求的响应
 - 进入readerLoop()方法  主要调用了s_unsolHandler()方法和processLine()进行消息处理
 ```
 static void *readerLoop(void *arg __unused)
 {
     for (;;) {
-            if (s_unsolHandler != NULL) {
-                s_unsolHandler (line1, line2);
-            }
+        const char * line;
+        line = readline();
+        if (line == NULL) { break; }
+        if(isSMSUnsolicited(line)) {
+            char *line1;
+            const char *line2;
+            line1 = strdup(line);//复制line
+            line2 = readline();
+            if (line2 == NULL) {free(line1); break;}
+            if (s_unsolHandler != NULL) {s_unsolHandler (line1, line2);}
             free(line1);
         } else {
             processLine(line);
         }
     }
+    onReaderClosed();
+    return NULL;
 }
 ```
 #### at_open()
