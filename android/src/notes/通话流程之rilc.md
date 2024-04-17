@@ -42,11 +42,14 @@ static void *eventLoop(void *param) {
 }
 ```
 #### ril_event_loop()
-- 继续跟踪ril_event_loop() hardware/ril/libril/ril_event.cpp，循环调用三个方法，进入，分别处理timer_list、watch_table、pending_list
+> 在安卓源码中，ril_event_loop函数是用于处理RIL（Radio Interface Layer）事件的核心部分。RIL是Android系统中用于处理无线通信接口的层，包括与Modem的通信和数据处理。ril_event_loop函数的主要作用是创建一个事件循环，用于监听和处理来自Modem的事件和请求。
+- 继续跟踪ril_event_loop() hardware/ril/libril/ril_event.cpp，使用select 监听文件描述符的变化，监听到则调用下面的对应方法进行处理，（处理timer_list、watch_table、pending_list）
 ```
 void ril_event_loop()
 {
+  
     for (;;) {
+  n = select(nfds, &rfds, NULL, NULL, ptv);
         // Check for timeouts
         processTimeouts();
         // Check for read-ready
@@ -58,6 +61,19 @@ void ril_event_loop()
 ```
 
 ### RIL_Init初始化  
+#### rild.c main入口
+```
+ dlsym()函数：加载动态链接库，dlsym函数接受两个参数，一个是动态链接库的句柄（dlHandle），另一个是要查找的符号的名称（"RIL_Init"）。dlsym返回一个指向该符号的指针，这个指针可以被用来调用该符号所代表的函数。
+```
+```
+ (const RIL_RadioFunctions *(*)(const struct RIL_Env *, int, char **))，这是一个函数指针类型的声明。它表示一个指向函数的指针。*(*)(const struct RIL_Env *, int, char **)表示这个函数参数是一个函数指针。
+```
+```
+rilInit =
+        (const RIL_RadioFunctions *(*)(const struct RIL_Env *, int, char **))
+        dlsym(dlHandle, "RIL_Init");
+```
+- 于是去寻找一个名为RIL_Init()的函数
 #### RIL_RadioFunctions *RIL_Init()
 - hardware/ril/reference-ril/reference-ril.c 开启线程，调用mainLoop
 ```
