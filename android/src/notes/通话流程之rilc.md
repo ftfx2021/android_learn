@@ -72,7 +72,9 @@ void ril_event_loop()
 rilInit =
         (const RIL_RadioFunctions *(*)(const struct RIL_Env *, int, char **))
         dlsym(dlHandle, "RIL_Init");
+funcs = rilInit(&s_rilEnv, argc, rilArgv);
 ```
+- 所以这两句就相当于funcs  = RIL_Init(&s_rilEnv, argc, rilArgv)
 - 于是去寻找一个名为RIL_Init()的函数
 #### RIL_RadioFunctions *RIL_Init()
 - hardware/ril/reference-ril/reference-ril.c 开启线程，调用mainLoop
