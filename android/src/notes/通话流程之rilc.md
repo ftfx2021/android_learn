@@ -115,7 +115,7 @@ int at_open(int fd, ATUnsolHandler h)
 ```
 #### readerLoop()
 > readerLoop()函数负责从AT通道读取一行数据，并在超时时返回NULL。
-> 先后读取line1，line2，二者通常是成对的，表示一个完整的SMS未经请求的响应
+> 先后读取line1，line2，二者通常是成对的，表示一个完整的unsolicited SMS（modem主动上报）
 - 进入readerLoop()方法  主要调用了s_unsolHandler()方法和processLine()进行消息处理
 ```
 static void *readerLoop(void *arg __unused)
@@ -150,10 +150,11 @@ int at_open(int fd, ATUnsolHandler h)
 ```
 #### mainLoop()
 - 进入mainLoop()，发现传入at_open的第二个参数为onUnsolicited(),说明s_unsolHandler变量最终是由onUnsolicited()进行初始化的
+- 即s_unsolHandler (line1, line2)相当于onUnsolicited(line1, line2)
 ```
 mainLoop(void *param __unused)
 {
-ret = at_open(fd, onUnsolicited);
+ ret = at_open(fd, onUnsolicited);
  }
 ```
 #### onUnsolicited()
@@ -166,8 +167,19 @@ static void onUnsolicited (const char *s, const char *sms_pdu)
             response, sizeof(response));
 }
 ```
+#### rild.c的s_rilEnv定义
+- 追溯RIL_onUnsolicitedResponse()，它的实现为：#define RIL_onUnsolicitedResponse(a,b,c) s_rilenv->OnUnsolicitedResponse(a,b,c)，追踪s_rilenv初始化，首先是在ril_reference的RIL_Init()初始化的，s_rilenv = env，而env是该函数的第一个参数，RIL_Init()被rild.c的main函数调用; s_rilEnv在rild.c中定义
+> 在Android的RIL（Radio Interface Layer）架构中，static struct RIL_Env s_rilEnv定义了一个结构体，该结构体包含了RIL需要与Java层交互的函数指针。这些函数指针用于处理来自Java层的请求和响应，以及与Modem的通信
+```
+static struct RIL_Env s_rilEnv = {
+    RIL_onRequestComplete,
+    RIL_onUnsolicitedResponse,
+    RIL_requestTimedCallback,
+    RIL_onRequestAck
+};
+```
 #### RIL_onUnsolicitedResponse()
-- 追溯RIL_onUnsolicitedResponse()，它的实现为：#define RIL_onUnsolicitedResponse(a,b,c) s_rilenv->OnUnsolicitedResponse(a,b,c)，只能追踪s_rilenv初始化的地方，最终发现它是在rild.c的main函数的rilInit初始化的，即funcs = rilInit(&s_rilEnv, argc, rilArgv); s_rilEnv的具体实现又是在ril.cpp中实现，所以进入ril.cpp的RIL_onUnsolicitedResponse()
+- s_rilEnv里面函数指针的**具体实现又是在ril.cpp中实现**，所以进入ril.cpp的RIL_onUnsolicitedResponse().根据unsolResponseIndex查找对应的s_unsolResponse，并调用对应的函数
 ```
 void RIL_onUnsolicitedResponse(int unsolResponse, const void *data,size_t datalen)
 {
@@ -179,14 +191,14 @@ void RIL_onUnsolicitedResponse(int unsolResponse, const void *data,size_t datale
 ```
 
 #### s_unsolResponses
-- 跟进s_unsolResponses
+- 跟进s_unsolResponses,
 ```
 static UnsolResponseInfo s_unsolResponses[] = {
 #include "ril_unsol_commands.h"
 };
 ```
 #### ril_unsol_commands.h
-- 进入ril_unsol_commands.h 根据不同的消息类型调用不同的方法
+- 进入ril_unsol_commands.h 根据不同的消息类型调用不同的函数
 ```
   {RIL_UNSOL_RESPONSE_RADIO_STATE_CHANGED, radio::radioStateChangedInd, WAKE_PARTIAL},
     {RIL_UNSOL_RESPONSE_CALL_STATE_CHANGED, radio::callStateChangedInd, WAKE_PARTIAL},
@@ -199,30 +211,21 @@ static UnsolResponseInfo s_unsolResponses[] = {
 #### callStateChangedInd()
 - 以RIL_UNSOL_RESPONSE_CALL_STATE_CHANGED为例，进入callStateChangedInd  hardware/ril/libril/ril_service.cpp,最终调用了callStateChanged()方法
 ```
-int radio::callStateChangedInd(int slotId,
-                               int indicationType, int token, RIL_Errno e, void *response,
-                               size_t responseLen) {
+sp<RadioImpl> radioService[SIM_COUNT];//每张卡都有一个RadioImpl实例
+int radio::callStateChangedInd(int slotId,int indicationType, int token, RIL_Errno e, void *response,size_t responseLen) {
     if (radioService[slotId] != NULL && radioService[slotId]->mRadioIndication != NULL) {
-#if VDBG
-        RLOGD("callStateChangedInd");
-#endif
-        Return<void> retStatus = radioService[slotId]->mRadioIndication->callStateChanged(
-                convertIntToRadioIndicationType(indicationType));
+        Return<void> retStatus = radioService[slotId]->mRadioIndication->callStateChanged(convertIntToRadioIndicationType(indicationType));
         radioService[slotId]->checkReturnStatus(retStatus);
-    } else {
-        RLOGE("callStateChangedInd: radioService[%d]->mRadioIndication == NULL", slotId);
     }
-
-    return 0;
 }
 ```
 #### callStateChanged()
-- 跟进callStateChanged()，发现它是IRadioIndication.h中的方法，最终是通过RadioIndication进行HIDL调用
+- 跟进callStateChanged()，发现它是IRadioIndication.h中的方法，最终是通过RadioIndication进行HIDL调用，然后就算java层的RIL处理
 ```
 public class RadioIndication extends IRadioIndication.Stub
 ```
 #### processLine()
-- 回到 hardware/ril/reference-ril/atchannel.c的readerLoop()方法,进入另一个分支,调用handleUnsolicited和handleFinalResponse进行处理
+- 回到 hardware/ril/reference-ril/atchannel.c的readerLoop()方法,进入另一个分支,即处理不满足IsSmsUnsolicited的消息(可能是RIL请求Modem后得到的响应，也可能是其他类型的响应)，调用handleUnsolicited和handleFinalResponse进行处理
 ```
 static void processLine(const char *line)
 {
@@ -237,7 +240,7 @@ static void processLine(const char *line)
 }
 ```
 #### handleUnsolicited()
-- 进入handleUnsolicited,最终还是调用了s_unsolHandler
+- 进入handleUnsolicited,最终还是调用了s_unsolHandler处理unsolicited消息
 ```
 static void handleUnsolicited(const char *line)
 {
@@ -247,7 +250,7 @@ static void handleUnsolicited(const char *line)
 }
 ```
 #### handleFinalResponse()
-- 进入handleFinalResponse(),发信号给s_commandcond线程，使其脱离阻塞状态
+- 进入handleFinalResponse(),发信号给s_commandcond线程，使其脱离阻塞状态。RIL等待Modem的响应，当响应到达时，通知RIL可以继续处理响应。
 ```
 static void handleFinalResponse(const char *line)
 {
@@ -255,21 +258,32 @@ static void handleFinalResponse(const char *line)
     pthread_cond_signal(&s_commandcond);
 }
 ```
-**至此，RIL_Init初始化完成，回到rild.c的main入口**
+**至此，RIL_Init初始化完成，回到rild.c的main入口，注册来自ril-reference的RIL_Init()函数**
+```
+ funcs = rilInit(&s_rilEnv, argc, rilArgv);
+    RIL_register(funcs);
+```
 ### 注册得到reference的回调函数
 #### RIL_register()
 - 进入hardware/ril/libril/ril.cpp RIL_register()  注册服务进行通信
 ```
 extern "C" void
 RIL_register (const RIL_RadioFunctions *callbacks) {
-
     radio::registerService(&s_callbacks, s_commands);
 
 }
 ```'
 #### registerService()
-- 进入hardware/ril/libril/ril_service.cpp registerService()
+- 进入hardware/ril/libril/ril_service.cpp registerService()  与java层交互
+
 ```
+struct RadioImpl : public V1_1::IRadio {
+    int32_t mSlotId;
+    sp<IRadioResponse> mRadioResponse;
+    sp<IRadioIndication> mRadioIndication;
+    sp<V1_1::IRadioResponse> mRadioResponseV1_1;
+    sp<V1_1::IRadioIndication> mRadioIndicationV1_1;
+    ...
 void radio::registerService(RIL_RadioFunctions *callbacks, CommandInfo *commands) {
     for (int i = 0; i < simCount; i++) {
         radioService[i] = new RadioImpl;
