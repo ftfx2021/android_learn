@@ -272,10 +272,9 @@ RIL_register (const RIL_RadioFunctions *callbacks) {
     radio::registerService(&s_callbacks, s_commands);
 
 }
-```'
+```
 #### registerService()
 - 进入hardware/ril/libril/ril_service.cpp registerService()  与java层交互
-
 ```
 struct RadioImpl : public V1_1::IRadio {
     int32_t mSlotId;
