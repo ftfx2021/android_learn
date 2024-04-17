@@ -292,3 +292,166 @@ void radio::registerService(RIL_RadioFunctions *callbacks, CommandInfo *commands
     }
 }
 ```
+# 呼出流程之rilc
+## RILJ
+- 从RILJ的dial开始,获取RadioVoiceProxy对象，调用其中的dial()方法
+#### RIL.java dial()
+```
+ RadioVoiceProxy voiceProxy = getRadioServiceProxy(RadioVoiceProxy.class);
+       radioServiceInvokeHelper(HAL_SERVICE_VOICE, rr, "dial", () -> {
+            voiceProxy.dial(rr.mSerial, address, clirMode, uusInfo);
+        });
+```
+#### RadioVoiceProxy dial()
+- 进入RadioVoiceProxy dial(),通过HIDL调用了 RILC的dial()方法
+```
+  private volatile android.hardware.radio.voice.IRadioVoice mVoiceProxy = null;
+   public void dial(int serial, String address, int clirMode, UUSInfo uusInfo)
+            throws RemoteException {
+        if (isEmpty()) return;
+        if (isAidl()) {
+            mVoiceProxy.dial(serial, RILUtils.convertToHalDialAidl(address, clirMode, uusInfo));
+        } else {
+            mRadioProxy.dial(serial, RILUtils.convertToHalDial(address, clirMode, uusInfo));
+        }
+    }
+
+```
+#### hardware/interfaces/radio/aidl/android/hardware/radio/voice/IRadioVoice.aidl
+```
+@VintfStability
+oneway interface IRadioVoice {void dial(in int serial, in Dial dialInfo);}
+```
+## RILC
+#### hardware/ril/libril/ril_service.cpp dial()
+- 进入 hardware/ril/libril/ril_service.cpp dial() 调用了CALL_ONREQUEST()
+```
+Return<void> RadioImpl::dial(int32_t serial, const Dial& dialInfo) {
+    CALL_ONREQUEST(RIL_REQUEST_DIAL, &dial, sizeOfDial, pRI, mSlotId);
+}
+
+```
+#### CALL_ONREQUEST()
+- 找到CALL_ONREQUEST()函数定义，它是调用了 s_vendorFunctions->onRequest
+```
+#define CALL_ONREQUEST(a, b, c, d, e) \
+        s_vendorFunctions->onRequest((a), (b), (c), (d), ((RIL_SOCKET_ID)(e)))
+```
+- 寻找s_vendorFunctions的定义以及初始化，发现它是registerService的一个回调函数，而调用registerService地方是在ril.c的RIL_register，调用RIL_register是在rild.c的main函数里
+```
+RIL_RadioFunctions *s_vendorFunctions = NULL;
+void radio::registerService(RIL_RadioFunctions *callbacks, CommandInfo *commands) {
+ s_vendorFunctions = callbacks;
+}
+```
+#### ril.cpp
+```
+RIL_RadioFunctions s_callbacks = {0, NULL, NULL, NULL, NULL, NULL};
+extern "C" void RIL_register (const RIL_RadioFunctions *callbacks) {
+ memcpy(&s_callbacks, callbacks, sizeof (RIL_RadioFunctions));//将callbacks放到s_callbacks里
+ radio::registerService(&s_callbacks, s_commands);
+}
+```
+#### rild.c
+- 进入rild.c的main()，发现ril.cpp的s_vendorFunctions就是ril-reference.c的RIL_Init()返回的函数结构体
+```
+   rilInit =
+        (const RIL_RadioFunctions *(*)(const struct RIL_Env *, int, char **))
+        dlsym(dlHandle, "RIL_Init");
+ funcs = rilInit(&s_rilEnv, argc, rilArgv);
+RIL_register(funcs);
+```
+#### ril-reference.c
+-进入ril-reference.c，看到s_callbacks就是一个函数指针的结构体， s_vendorFunctions->onRequest((a), (b), (c), (d), ((RIL_SOCKET_ID)(e)))就是RIL_RadioFunctions结构体名为onRequest的函数指针
+```
+static const RIL_RadioFunctions s_callbacks = {
+    RIL_VERSION,
+    onRequest,
+    currentState,
+    onSupports,
+    onCancel,
+    getVersion
+};
+const RIL_RadioFunctions *RIL_Init(const struct RIL_Env *env, int argc, char **argv){
+ return &s_callbacks;
+ }
+```
+- 进入onRequets(),根据请求体类型，进行处理，对应的呼出处理调用的是requestDial()
+```
+static void
+onRequest (int request, void *data, size_t datalen, RIL_Token t)
+{
+ 
+       case RIL_REQUEST_DIAL:
+            requestDial(data, datalen, t);
+            break;
+            ...
+        case RIL_REQUEST_EXIT_EMERGENCY_CALLBACK_MODE:
+                RIL_onRequestComplete(t, RIL_E_SUCCESS, NULL, 0);
+            break;
+     ...
+        default:
+            RLOGD("Request not supported. Tech: %d",TECH(sMdmInfo));
+            RIL_onRequestComplete(t, RIL_E_REQUEST_NOT_SUPPORTED, NULL, 0);
+            break;
+    }
+}
+```
+- 进入requestDial(),发送at指令、处理完成的调用
+
+```
+static void requestDial(void *data, size_t datalen __unused, RIL_Token t)
+{
+    RIL_Dial *p_dial;
+    ret = at_send_command(cmd, NULL);
+    RIL_onRequestComplete(t, RIL_E_SUCCESS, NULL, 0);
+}
+```
+#### atchannel.c
+- 进入at_send_command
+```
+int at_send_command (const char *command, ATResponse **pp_outResponse)
+{
+    int err;
+    err = at_send_command_full (command, NO_RESULT, NULL,
+                                    NULL, 0, pp_outResponse);
+    return err;
+}
+```
+- 跟进at_send_command_full
+```
+static int at_send_command_full (const char *command, ATCommandType type,
+                    const char *responsePrefix, const char *smspdu,
+                    long long timeoutMsec, ATResponse **pp_outResponse)
+{
+    err = at_send_command_full_nolock(command, type,
+                    responsePrefix, smspdu,
+                    timeoutMsec, pp_outResponse);
+}
+```
+- 继续跟进at_send_command_full_nolock(),通过writeline发送消息给modem
+```
+static int at_send_command_full_nolock (const char *command, ATCommandType type,
+                    const char *responsePrefix, const char *smspdu,
+                    long long timeoutMsec, ATResponse **pp_outResponse)
+{
+
+    err = writeline (command);
+
+}
+
+```
+
+# 呼入流程之rilc
+## 从atchannel.c的processLine()开始，根据消息类型进行处理，剩就是 handleUnsolicited()->handleFinalResponse()->s_unsolHandler()(即onUnsolicited(line1, line2))->RIL_onUnsolicitedResponse()-》s_unsolResponses->ril_unsol_commands.h->callStateChangedInd()->callStateChanged()与RILJ交互
+```
+static void processLine(const char *line)
+{
+    pthread_mutex_lock(&s_commandmutex);
+    if () {
+        handleUnsolicited(line);
+    } else if () {
+        handleFinalResponse(line);
+    } 
+}
+```
