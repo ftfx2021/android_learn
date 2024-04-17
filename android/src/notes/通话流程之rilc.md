@@ -361,7 +361,8 @@ extern "C" void RIL_register (const RIL_RadioFunctions *callbacks) {
 RIL_register(funcs);
 ```
 #### ril-reference.c
--进入ril-reference.c，看到s_callbacks就是一个函数指针的结构体， s_vendorFunctions->onRequest((a), (b), (c), (d), ((RIL_SOCKET_ID)(e)))就是RIL_RadioFunctions结构体名为onRequest的函数指针
+- 进入ril-reference.c，看到s_callbacks就是一个函数指针的结构体， s_vendorFunctions->onRequest((a), (b), (c), (d), ((RIL_SOCKET_ID)(e)))就是RIL_RadioFunctions结构体名为onRequest的函数指针
+
 ```
 static const RIL_RadioFunctions s_callbacks = {
     RIL_VERSION,
