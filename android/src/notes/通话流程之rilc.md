@@ -69,6 +69,7 @@ void ril_event_loop()
  (const RIL_RadioFunctions *(*)(const struct RIL_Env *, int, char **))，这是一个函数指针类型的声明。它表示一个指向函数的指针。*(*)(const struct RIL_Env *, int, char **)表示这个函数参数是一个函数指针。
 ```
 ```
+dlHandle = dlopen(rilLibPath, RTLD_NOW);//打开rilLibPath中的动态链接库
 rilInit =
         (const RIL_RadioFunctions *(*)(const struct RIL_Env *, int, char **))
         dlsym(dlHandle, "RIL_Init");
@@ -376,7 +377,7 @@ const RIL_RadioFunctions *RIL_Init(const struct RIL_Env *env, int argc, char **a
  return &s_callbacks;
  }
 ```
-- 进入onRequets(),根据请求体类型，进行处理，对应的呼出处理调用的是requestDial()
+- 进入onRequet(),根据请求体类型，进行处理，对应的呼出处理调用的是requestDial()
 ```
 static void
 onRequest (int request, void *data, size_t datalen, RIL_Token t)
@@ -408,7 +409,7 @@ static void requestDial(void *data, size_t datalen __unused, RIL_Token t)
 }
 ```
 #### atchannel.c
-- 进入at_send_command
+- 先进入at_send_command 发送at指令
 ```
 int at_send_command (const char *command, ATResponse **pp_outResponse)
 {
@@ -441,6 +442,89 @@ static int at_send_command_full_nolock (const char *command, ATCommandType type,
 }
 
 ```
+#### reference-ril.c
+- 再看RIL_onRequestComplete 实际上是s_rilenv中的一个函数指针，它在RIL_Init被初始化：s_rilenv = env;其中env为RIL_Init的一个参数，const struct RIL_Env *env
+```
+#define RIL_onRequestComplete(t, e, response, responselen) s_rilenv->OnRequestComplete(t,e, response, responselen)
+```
+#### rild.c RIL_Env
+```
+static struct RIL_Env s_rilEnv = {
+    RIL_onRequestComplete,
+    RIL_onUnsolicitedResponse,
+    RIL_requestTimedCallback,
+    RIL_onRequestAck
+};
+```
+#### ril.cpp RIL_onRequestComplete
+- 调用checkAndDequeueRequestInfoIfAck找到对应的RequestInfo结构体（pRI），然后通过pRI->pCI->responseFunction发起response函数调用
+```
+RIL_onRequestComplete(RIL_Token t, RIL_Errno e, void *response, size_t responselen) {
+    pRI = (RequestInfo *)t;
+    if (!checkAndDequeueRequestInfoIfAck(pRI, false)) {
+        RLOGE ("RIL_onRequestComplete: invalid RIL_Token");
+        return;
+    }
+     ret = pRI->pCI->responseFunction((int) socket_id,responseType, pRI->token, e, response, responselen);
+}
+```
+#### responseFunction
+- 跟进responseFunction，它是CommandInfo的一个函数指针，在RIL_onRequestComplete中被初始化过： pRI = (RequestInfo *)t，t为参数，向上追溯，第一次出现是在dial中被初始化
+```
+typedef struct CommandInfo {
+    int requestNumber;
+    int(*responseFunction) (int slotId, int responseType, int token,
+            RIL_Errno e, void *response, size_t responselen);
+} CommandInfo;
+```
+
+- ril_service.cpp dial() 它是addRequestToList的返回值
+```
+Return<void> RadioImpl::dial(int32_t serial, const Dial& dialInfo) {
+   RequestInfo *pRI = android::addRequestToList(serial, mSlotId, RIL_REQUEST_DIAL);
+    CALL_ONREQUEST(RIL_REQUEST_DIAL, &dial, sizeOfDial, pRI, mSlotId);
+}
+```
+#### ril.cpp addRequestToList() 
+- 可见 所谓pRI->pCI->responseFunction就是，根据request找到里面的函数，即dialResponse()
+```
+typedef struct RequestInfo {
+    int32_t token;      //this is not RIL_Token
+    CommandInfo *pCI;
+    struct RequestInfo *p_next;
+    char cancelled;
+    char local;         // responses to local commands do not go back to command process
+    RIL_SOCKET_ID socket_id;
+    int wasAckSent;    // Indicates whether an ack was sent earlier
+} RequestInfo;
+
+static CommandInfo s_commands[] = {#include "./ril_commands.h"};
+addRequestToList(int serial, int slotId, int request) {
+  pRI->pCI = &(s_commands[request]);
+  return pRI;
+}
+```
+#### ril_commands.h
+```
+ {RIL_REQUEST_DIAL, radio_1_6::dialResponse}
+```
+#### ril_service.cpp dialResponse()RILJ向JAVA层返回RIL请求结果
+- 进入dialResponse() 教育
+```
+int radio_1_6::dialResponse() {
+
+    if (radioService[slotId]->mRadioResponse != NULL) {
+        RadioResponseInfo responseInfo = {};
+        populateResponseInfo(responseInfo, serial, responseType, e);
+        Return<void> retStatus = radioService[slotId]->mRadioResponse->dialResponse(responseInfo);
+        radioService[slotId]->checkReturnStatus(retStatus);
+    } else {
+        RLOGE("dialResponse: radioService[%d]->mRadioResponse == NULL", slotId);
+    }
+    return 0;
+}
+```
+
 
 # 呼入流程之rilc
 ### 从atchannel.c的processLine()开始
