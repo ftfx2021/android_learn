@@ -1,0 +1,1426 @@
+--------- beginning of radio
+04-28 23:06:34.104  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:34.105  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:34.121  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:35.119  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:35.120  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:35.141  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:36.139  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:36.140  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:36.156  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:37.154  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:37.155  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:37.165  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:38.167  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:38.168  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:38.178  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:39.180  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:39.180  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:39.186  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:39.289  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.289  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.294  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.294  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.305  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.305  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.310  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.310  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.314  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.314  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.319  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.319  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.324  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.324  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.329  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.330  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.457  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.457  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.461  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.461  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.467  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.467  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.473  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.473  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.479  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.479  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.619  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.619  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.623  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.623  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.627  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.627  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.796  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.796  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:39.800  5521  6632 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:39.800  5521  6632 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:40.187  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:40.187  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:40.194  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:40.379  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:40.380  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:40.616  5521  6409 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:40.616  5521  6409 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:40.885  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:40.885  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:41.116  5521  6409 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:41.116  5521  6409 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:41.195  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:41.195  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:41.202  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:41.341  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:41.341  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:41.889  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:41.889  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:41.890  5521  5570 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:41.895  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:41.895  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:41.895  5521  5570 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:41.913  5521  5570 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:41.913  5521  5570 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:41.913  5521  5570 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:41.915  5521  5570 D Phone   : isImsRegistered =true
+04-28 23:06:41.916  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:41.916  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:41.917  5521  5570 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:41.921  5521  5570 D Phone   : isImsRegistered =true
+04-28 23:06:41.985  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:41.986  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:41.987  5521  5521 D RILJ    : [8815]> GET_ACTIVITY_INFO [PHONE0]
+04-28 23:06:41.990  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:2key: config_voicemail_ignore_sim config: false
+04-28 23:06:41.990  5521  5570 D GsmCdmaPhone: [1] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:41.991  5521  5570 D RILJ    : [8815]< GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=1401542369 mSleepTimeMs=8646 mIdleTimeMs=265 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=16346}]} [PHONE0]
+04-28 23:06:42.062  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.062  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.063  5521  5570 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:42.080  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.080  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.092  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.092  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.095  5521  5570 D Phone   : isImsRegistered =true
+04-28 23:06:42.112  5521  6505 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:42.114  5521  6632 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:42.115  5521  5570 D Phone   : isImsRegistered =true
+04-28 23:06:42.115  5521  6409 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.115  5521  6409 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.126  5521  5521 D MiuiGsmMmiCodeUtils: isVodafoneFACs MccMnc = 46007
+04-28 23:06:42.127  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.127  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.128  5521  5521 D GsmMmiCode: isTwoDigitShortCode
+04-28 23:06:42.136  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.136  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.144  5521  6632 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:42.144  5521  6632 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:42.145  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.145  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.146  5521  6409 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:42.147  5521  6632 D Phone   : isImsRegistered =true
+04-28 23:06:42.148  5521  6409 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:42.148  5521  5570 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:42.149  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:42.149  5521  5570 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:42.152  5521  5521 D QtiGsmCdmaPhone: [0 ] dial: mIsInSecureMode = false, isEmergency = false
+04-28 23:06:42.156  5521  5521 I GsmCdmaPhone: [0] dial; isEmergency=false (based on all phones)
+04-28 23:06:42.156  5521  5521 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:42.161  5521  6409 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.161  5521  6409 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.162  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:42.163  5521  5521 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:42.166  5521  5521 I GsmCdmaPhone: [0] useImsForCall=true, useImsForPsOnlyCall=false, useOnlyDialedSimEccList=false, isEmergency=false, useImsForEmergency=false, useImsForUt=true, isUt=false, isSuppServiceCode=false, isPotentialUssdCode=false, isWpsCall=false, allowWpsOverIms=true, imsPhone=Handler (com.android.internal.telephony.imsphone.ImsPhone) {e690598}, imsPhone.isVoiceOverCellularImsEnabled()=true, imsPhone.isVowifiEnabled()=false, imsPhone.isVideoEnabled()=true, imsPhone.getServiceState().getState()=0
+04-28 23:06:42.167  5521  6409 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.167  5521  6409 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.167  5521  5521 D MiuiCallControllerImpl: forceUseCsForCall is false
+04-28 23:06:42.167  5521  5521 D GsmCdmaPhone: [0] Trying IMS PS call
+04-28 23:06:42.168  5521  5521 D GsmMmiCode: isTwoDigitShortCode
+04-28 23:06:42.169  5521  5521 D ImsPhone[0]: [0] dialInternal: dialing w/ mmi 'null'...
+04-28 23:06:42.173  5521  5521 I ImsPhoneCallTracker: shouldProcessCall: number: [****], result: 0
+04-28 23:06:42.173  5521  5521 D ImsPhoneCallTracker: [0] dial clirMode=0
+04-28 23:06:42.174  5521  6409 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.174  5521  6409 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.174  5521  5521 D ImsPhoneCallTracker: [0] shouldPerformInternationalNumberRemapping: did not set the KEY_INTERNATIONAL_ROAMING_DIAL_STRING_REPLACE_STRING_ARRAY
+04-28 23:06:42.174  5521  5521 D ImsPhoneCallTracker: [0] convertNumberIfNecessary convertMaps is null
+04-28 23:06:42.179  5521  5521 D MiuiImsPhoneUtils:  simOperator:46007defaultClirMode:0
+04-28 23:06:42.179  5521  5521 D ImsPhoneCallTracker: [0] clearDisconnected
+04-28 23:06:42.179  5521  5521 D ImsPhoneCallTracker: [0] updatePhoneState pendingMo = null, rng= IDLE(), fg= IDLE(), bg= IDLE()
+04-28 23:06:42.179  5521  5521 D ImsPhoneCallTracker: [0] updatePhoneState oldState=IDLE, newState=IDLE
+04-28 23:06:42.180  5521  6409 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.180  5521  6409 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.180  5521  5521 D ImsPhoneCallTracker: [0] dial: deferDial = INVALID
+04-28 23:06:42.180  5521  5521 D ImsPhoneConnection: acquireWakeLock
+04-28 23:06:42.182  5521  5521 D ImsPhoneCallTracker: [0] dialInternal: conn.getDeferDialStatus INVALID
+04-28 23:06:42.187  5521  5521 D ImsPhoneCallTracker: [0] dialInternal: isStartRttCall = true
+04-28 23:06:42.188  5521  5570 D Phone   : isImsRegistered =true
+04-28 23:06:42.194  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:42.194  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:42.194  5521  5521 D VoiceCallSessionStats: getVoiceRatWithVoNRFix: oldRat=20, newRat=20
+04-28 23:06:42.195  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:42.195  5521  5521 D VoiceCallSessionStats: getVoiceRatWithVoNRFix: oldRat=20, newRat=20
+04-28 23:06:42.195  5521  5521 D VoiceCallSessionStats: getVoiceRatWithVoNRFix: oldRat=20, newRat=20
+04-28 23:06:42.205  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:42.217  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:42.228  5521  5521 D ImsPhoneCallTracker: [0] updatePhoneState pendingMo = DIALING(null/objId:211148589), rng= IDLE(), fg= DIALING(null/objId:211148589), bg= IDLE()
+04-28 23:06:42.228  5521  5521 D ImsPhoneCallTracker: [0] updatePhoneState oldState=IDLE, newState=OFFHOOK
+04-28 23:06:42.238  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:42.238  2951  3573 I qcrilNrd: RIL Response bytes written:241
+04-28 23:06:42.238  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 241, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:42.239  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:42.245  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:display_hd_audio_property_bool result:true
+04-28 23:06:42.247  5521  5521 D FeatureConfiguration: Checking feature: FEATURE_DSDA
+04-28 23:06:42.247  5521  5521 D FeatureConfiguration: Feature FEATURE_DSDA build is supported, featureSupported=true
+04-28 23:06:42.247  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:42.247  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:42.247  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:display_hd_audio_property_bool result:true
+04-28 23:06:42.247  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:DIALING
+04-28 23:06:42.247  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:42.247  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:42.247  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:42.249  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:config_use_cnap_presentation result:false
+04-28 23:06:42.251  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:42.252  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:42.252  2951  3573 I qcrilNrd: RIL Response bytes written:241
+04-28 23:06:42.253  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 241, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:42.253  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:42.257  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:42.257  2951  3573 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:42.258  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:42.258  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:42.258  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:42.258  2951  3573 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:42.258  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:42.258  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:42.259  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:42.259  2951  3573 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:42.259  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 79, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:42.259  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:42.259  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:42.259  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:42.259  2951  3573 I qcrilNrd: RIL Response bytes written:75
+04-28 23:06:42.260  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 75, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:42.260  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:42.268  5521  5521 D PhoneSwitcher: handle event - 109
+04-28 23:06:42.268  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:42.268  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:42.269  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:42.269  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:42.269  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:42.269  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:42.269  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:42.269  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:42.269  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:42.269  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:42.270  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:42.270  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:42.270  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:42.270  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:42.271  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:42.271  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:42.271  5521  5521 D PhoneSwitcher: isPhoneInVoiceCallChanged: mPhoneIdInVoiceCall=-1
+04-28 23:06:42.271  5521  5521 D PhoneSwitcher: EVENT_PRECISE_CALL_STATE_CHANGED Enforce evaluating once after call ends
+04-28 23:06:42.271  5521  5521 D MiuiPhoneSwitcherImpl: updatePreferredDataPhoneId  TempDataPhoneId=-1,isTempDdsSwitchEnabled=false
+04-28 23:06:42.271  5521  5521 D MiuiDisplayInfoController: EVENT_PRECISE_CALL_STATE_CHANGED
+04-28 23:06:42.271  5521  5521 D MiuiDisplayInfoController: handleCallStateChanged: false,isHasDelay=false,phone.getState(): OFFHOOK
+04-28 23:06:42.272  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:42.272  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:42.272  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:DIALING
+04-28 23:06:42.272  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:42.272  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:42.272  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:42.274  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:config_use_cnap_presentation result:false
+04-28 23:06:42.275  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:42.278  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:42.285  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:42.290  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:42.290  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:42.294  5521  6505 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:42.294  5521  6505 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:42.295  5521  6505 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:42.299  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:42.299  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.299  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=DIALING cause=0 ignoreState=true
+04-28 23:06:42.299  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.299  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.301  5521  6505 D Phone   : isImsRegistered =true
+04-28 23:06:42.302  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=7, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.302  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=7, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.302  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:42.302  5521  5570 D Phone   : isImsRegistered =true
+04-28 23:06:42.302  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:42.302  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=DIALING
+04-28 23:06:42.304  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:42.304  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:42.306  5521  6552 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:42.309  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:42.311  5521  5521 D QtiDSMGR-0: handleMessage: 2
+04-28 23:06:42.311  5521  5521 D QtiDSMGR-0: hasTempDdsSwitched = false
+04-28 23:06:42.311  5521  5521 D DSMGR-0 : mIsDataEnabled=true, prevDataEnabled=true
+04-28 23:06:42.311  5521  5521 D DNC-0   : handleMessage, msg.what = 270343
+04-28 23:06:42.311  5521  5521 E DNC-0   : Unexpected event 270343
+04-28 23:06:42.311  5521  5521 D MiuiDataControllerImpl[0]: onVoiceCallChange,getPhoneId = 1
+04-28 23:06:42.312  5521  5521 D DN-142-C: ConnectedState: updateNetworkCapabilities: Capabilities not changed.
+04-28 23:06:42.312  5521  5521 D DN-143-C: ConnectedState: updateNetworkCapabilities: Capabilities not changed.
+04-28 23:06:42.312  5521  5521 D QtiGsmCdmaPhone: [1 ] handleMessage: Event: 58
+04-28 23:06:42.312  5521  5521 D GsmCdmaPhone: [1] Event BarringInfoChanged Received
+04-28 23:06:42.312  5521  5521 D PhoneSwitcher: handle event - 109
+04-28 23:06:42.312  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:42.312  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:42.313  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:42.313  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:42.313  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:42.313  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:42.313  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:42.313  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:42.313  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:42.313  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:42.314  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:42.314  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:42.314  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:42.314  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:42.314  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:42.314  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:42.314  5521  5521 D PhoneSwitcher: isPhoneInVoiceCallChanged: mPhoneIdInVoiceCall=-1
+04-28 23:06:42.314  5521  5521 D PhoneSwitcher: EVENT_PRECISE_CALL_STATE_CHANGED Enforce evaluating once after call ends
+04-28 23:06:42.314  5521  5521 D MiuiPhoneSwitcherImpl: updatePreferredDataPhoneId  TempDataPhoneId=-1,isTempDdsSwitchEnabled=false
+04-28 23:06:42.314  5521  5521 D MiuiDisplayInfoController: EVENT_PRECISE_CALL_STATE_CHANGED
+04-28 23:06:42.314  5521  5521 D MiuiDisplayInfoController: handleCallStateChanged: false,isHasDelay=false,phone.getState(): OFFHOOK
+04-28 23:06:42.315  5521  6412 D Phone   : isImsRegistered =true
+04-28 23:06:42.316  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:42.316  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:42.316  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:DIALING
+04-28 23:06:42.316  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:42.316  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:42.316  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:42.318  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:config_use_cnap_presentation result:false
+04-28 23:06:42.318  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:42.320  5521  6412 D Phone   : isImsRegistered =true
+04-28 23:06:42.323  5521  5521 D RILJ    : [8816]> GET_ACTIVITY_INFO [PHONE0]
+04-28 23:06:42.323  5521  5521 D QtiDSMGR-0: handleMessage: 5
+04-28 23:06:42.323  5521  5521 D QtiDSMGR-1: handleMessage: 5
+04-28 23:06:42.324  5521  6407 D RILJ    : [8816]< GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=1401542703 mSleepTimeMs=0 mIdleTimeMs=0 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]} [PHONE0]
+04-28 23:06:42.325  5521  5521 D ImsPhoneCallTracker: [0] onCallInitiating
+04-28 23:06:42.325  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=DIALING cause=0 ignoreState=true
+04-28 23:06:42.326  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.326  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.328  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=7, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.328  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=7, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.328  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:42.329  5521  6412 D Phone   : isImsRegistered =true
+04-28 23:06:42.329  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:42.329  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=DIALING
+04-28 23:06:42.329  5521  5521 D QtiGsmCdmaPhone: [0 ] handleMessage: Event: 58
+04-28 23:06:42.329  5521  5521 D GsmCdmaPhone: [0] Event BarringInfoChanged Received
+04-28 23:06:42.330  5521  6412 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:42.330  5521  6412 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:42.333  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:42.333  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.333  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=DIALING cause=0 ignoreState=true
+04-28 23:06:42.334  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.334  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.335  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=7, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.335  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=7, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:42.335  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:42.335  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:42.335  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=DIALING
+04-28 23:06:42.341  5521  6412 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:42.341  5521  6412 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:42.341  5521  6412 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:42.343  5521  6412 D Phone   : isImsRegistered =true
+04-28 23:06:42.346  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:42.346  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: OFFHOOK
+04-28 23:06:42.348  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:42.349  5521  5521 I RelayLog:  --> isInCallSupportRelay =true
+04-28 23:06:42.349  5521  5521 I RelayLog:  --> isAudioSupportRelay =true
+04-28 23:06:42.349  5521  5521 I RelayLog: RelayConnectionsManager --> getLocalConnectionCallRelaying, no Connection was found!
+04-28 23:06:42.349  5521  5521 I RelayLog: RelayServiceFilterUtils --> hasRelaying, false
+04-28 23:06:42.349  5521  5521 I RelayLog: RelayConnectionsManager --> getLocalConnectionCallRelayed, no Connection was found!
+04-28 23:06:42.349  5521  5521 I RelayLog: RelayServiceFilterUtils --> hasRelayed, false
+04-28 23:06:42.349  5521  5521 I RelayLog: RelayServiceFilterUtils --> Answered device is 
+04-28 23:06:42.349  5521  5521 I RelayLog: RelayServiceFilterUtils --> Filtered device size 0
+04-28 23:06:42.349  5521  5521 I RelayLog: PhoneContinuityController --> isContinuityServiceConnected, 0
+04-28 23:06:42.349  5521  5521 I RelayLog:  --> maybeRelayCall no - relay not connected
+04-28 23:06:42.349  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:42.349  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: OFFHOOK
+04-28 23:06:42.349  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:42.349  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: OFFHOOK
+04-28 23:06:42.350  5521  5521 D RILJ    : [8817]> GET_ACTIVITY_INFO [PHONE0]
+04-28 23:06:42.351  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:display_hd_audio_property_bool result:true
+04-28 23:06:42.351  5521  5521 D RILJ    : [8818]> GET_ACTIVITY_INFO [PHONE0]
+04-28 23:06:42.351  5521  6409 D RILJ    : [8817]< GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=1401542730 mSleepTimeMs=0 mIdleTimeMs=0 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]} [PHONE0]
+04-28 23:06:42.352  5521  6409 D RILJ    : [8818]< GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=1401542731 mSleepTimeMs=0 mIdleTimeMs=0 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]} [PHONE0]
+04-28 23:06:42.360  5521  6412 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:42.361  5521  6412 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:42.361  5521  6412 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:42.362  5521  6412 D Phone   : isImsRegistered =true
+04-28 23:06:43.299  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:43.299  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:43.311  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:43.503  2951  3573 E RILC    : Unsupported unsolicited response code 1028
+04-28 23:06:43.564  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:43.564  5521  6412 D RILJ    : Unsol response received; Sending ack to ril.cpp [PHONE1]
+04-28 23:06:43.564  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 342, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:43.564  2953  3576 I qcrilNrd: RIL Response bytes written:342
+04-28 23:06:43.564  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 342, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:43.564  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:43.567  5521  6412 D RILJ    : [UNSL]< UNSOL_DATA_CALL_LIST_CHANGED [DataCallResponse: { cause=NONE(0x0) retry=-1 cid=0 linkStatus=2 protocolType=1 ifname=rmnet_data2240x:812x:c7x:23x:98bx:d7fx:fecx:efx/64] dnses=[/240x:802x:200xx:6x,/240x:802x:200xx:x gateways=[/fe80::e5c1:d51f:97f5:23f0] pcscf=[/2409:8020:5002:93d::c, /2409:8020:5002:93d::1c] mtu=1500 mtuV4=0 mtuV6=1500 handoverFailureMode=legacy pduSessionId=0 defaultQos=null qosBearerSessions=[] sliceInfo=null trafficDescriptors=[TrafficDescriptor={mDnn=ims, null}]}] [PHONE1]
+04-28 23:06:43.577  5521  5521 D DN-102-C: ConnectedState: onDataStateChanged: DataCallResponse: { cause=NONE(0x0) retry=-1 cid=0 linkStatus=2 protocolType=1 ifname=rmnet_data2240x:812x:c7x:23x:98bx:d7fx:fecx:efx/64] dnses=[/240x:802x:200xx:6x,/240x:802x:200xx:x gateways=[/fe80::e5c1:d51f:97f5:23f0] pcscf=[/2409:8020:5002:93d::c, /2409:8020:5002:93d::1c] mtu=1500 mtuV4=0 mtuV6=1500 handoverFailureMode=legacy pduSessionId=0 defaultQos=null qosBearerSessions=[] sliceInfo=null trafficDescriptors=[TrafficDescriptor={mDnn=ims, null}]}
+04-28 23:06:43.577  5521  5521 D DN-102-C: ConnectedState: Link status updated to ACTIVE
+04-28 23:06:43.577  5521  5521 D MiuiDataControllerImpl[1]: getMtuForJpKddi ret=-1
+04-28 23:06:43.578  5521  5521 D DN-102-C: ConnectedState: updateQosBearerSessions: []
+04-28 23:06:43.582  5521  5521 D DN-102-C: ConnectedState: updateNetworkCapabilities: Capabilities not changed.
+04-28 23:06:43.586  5521  5521 D QOSCT-102: updateSessions: sessions size=0
+04-28 23:06:43.920  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 75, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:43.920  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:43.920  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 221, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:43.920  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:43.920  2951  3573 I qcrilNrd: RIL Response bytes written:221
+04-28 23:06:43.931  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:43.931  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.931  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=DIALING cause=0 ignoreState=true
+04-28 23:06:43.932  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.932  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.932  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=7, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.932  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=7, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.932  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:43.933  5521  5521 I ImsPhoneConnection: updateMediaCapabilities: mediate attributes changed: codec = 2, bitRate=0.0, bandwidth=0.0
+04-28 23:06:43.933  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:43.933  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=DIALING
+04-28 23:06:43.935  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:display_hd_audio_property_bool result:true
+04-28 23:06:43.941  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 221, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:43.941  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:43.941  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:43.941  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:43.941  2951  3573 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:43.942  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:43.942  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:43.942  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:43.942  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:43.942  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:43.950  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:43.958  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:43.958  5521  5521 D ImsPhoneCallTracker: [0] onCallProgressing
+04-28 23:06:43.960  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange [ImsCall objId:119423273 onHold:N mute:N mCallProfile:{ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] } networkType:13 updateRequest:NONE merging:N merge action pending:N merged:N multiParty:N confHost:N buried term:N isVideo: N wasVideo: N isWifi: N session:[ImsCallSession objId:98107056 callId:1] transientSession:null] state=ALERTING cause=0
+04-28 23:06:43.960  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=false
+04-28 23:06:43.961  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.961  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.961  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.962  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.962  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:43.962  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:43.962  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:43.962  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.963  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.964  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.964  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:43.964  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:43.965  5521  5521 D ImsPhoneCallTracker: [0] updatePhoneState pendingMo = null, rng= IDLE(), fg= ALERTING(TC@28_1/objId:211148589), bg= IDLE()
+04-28 23:06:43.965  5521  5521 D ImsPhoneCallTracker: [0] updatePhoneState oldState=OFFHOOK, newState=OFFHOOK
+04-28 23:06:43.967  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:43.968  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:43.969  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:43.970  5521  5521 D PhoneSwitcher: handle event - 109
+04-28 23:06:43.970  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:43.970  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:43.971  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:43.971  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:43.971  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:43.971  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:43.971  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:43.971  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:43.972  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:43.972  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:43.972  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:43.972  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:43.972  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:43.972  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:43.973  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:43.973  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:43.973  5521  5521 D PhoneSwitcher: isPhoneInVoiceCallChanged: mPhoneIdInVoiceCall=-1
+04-28 23:06:43.973  5521  5521 D PhoneSwitcher: EVENT_PRECISE_CALL_STATE_CHANGED Enforce evaluating once after call ends
+04-28 23:06:43.973  5521  5521 D MiuiPhoneSwitcherImpl: updatePreferredDataPhoneId  TempDataPhoneId=-1,isTempDdsSwitchEnabled=false
+04-28 23:06:43.973  5521  5521 D MiuiDisplayInfoController: EVENT_PRECISE_CALL_STATE_CHANGED
+04-28 23:06:43.973  5521  5521 D MiuiDisplayInfoController: handleCallStateChanged: false,isHasDelay=false,phone.getState(): OFFHOOK
+04-28 23:06:43.975  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:43.975  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:43.975  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:display_hd_audio_property_bool result:true
+04-28 23:06:43.980  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:DIALING
+04-28 23:06:43.980  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:43.980  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:43.980  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:43.984  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:config_use_cnap_presentation result:false
+04-28 23:06:43.989  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:43.989  5521  6412 D Phone   : isImsRegistered =true
+04-28 23:06:43.991  5521  6412 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:43.991  5521  6412 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:43.991  5521  6412 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:43.994  5521  6412 D Phone   : isImsRegistered =true
+04-28 23:06:44.000  5521  6505 D Phone   : isImsRegistered =true
+04-28 23:06:44.010  5521  6505 D Phone   : isImsRegistered =true
+04-28 23:06:44.012  5521  6505 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:44.012  5521  6505 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:44.027  5521  6505 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.027  5521  6505 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.027  5521  6505 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.030  5521  6505 D Phone   : isImsRegistered =true
+04-28 23:06:44.291  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.292  2953  3576 I qcrilNrd: RIL Response bytes written:8
+04-28 23:06:44.293  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 8, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.295  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.310  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:44.310  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:44.318  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:44.326  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 8, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.326  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.326  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.326  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.326  2953  3576 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:44.328  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 301, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.328  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.328  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 8, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.328  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.328  2953  3576 I qcrilNrd: RIL Response bytes written:8
+04-28 23:06:44.336  5521  5521 D ImsPhoneCallTracker: [1] processIncomingCall: incoming call intent
+04-28 23:06:44.336  5521  5521 D ImsPhoneCallTracker: [1] processIncomingCall: isUnknown = false fg = IDLE bg = IDLE
+04-28 23:06:44.340  5521  5521 D ImsPhoneConnection: acquireWakeLock
+04-28 23:06:44.343  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.343  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.344  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.344  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.344  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:44.346  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 8, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.346  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.346  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.346  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.346  2953  3576 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:44.351  5521  5521 D VoiceCallSessionStats: getVoiceRatWithVoNRFix: oldRat=20, newRat=20
+04-28 23:06:44.351  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:44.358  5521  5521 D VoiceCallSessionStats: getVoiceRatWithVoNRFix: oldRat=20, newRat=20
+04-28 23:06:44.358  5521  5521 D VoiceCallSessionStats: getVoiceRatWithVoNRFix: oldRat=20, newRat=20
+04-28 23:06:44.360  5521  5521 I Phone   : notifyNewRingingConnection: phoneId=[1], connection=[[ImsPhoneConnection objId: 129643349 telecomCallID: null address: [****] isAdhocConf: N ImsCall: [ImsCall objId:75099660 onHold:N mute:N mCallProfile:{ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] } networkType:13 updateRequest:NONE merging:N merge action pending:N merged:N multiParty:N confHost:N buried term:N isVideo: N wasVideo: N isWifi: N session:[ImsCallSession objId:214144319 callId:1] transientSession:null]]], registrants=[com.android.internal.telephony.Registrant@99263e5, com.android.internal.telephony.Registrant@5e27eba]
+04-28 23:06:44.360  5521  5521 D ImsPhone[1]: [1] notifyIncomingRing
+04-28 23:06:44.360  5521  5521 D ImsPhoneCallTracker: [1] updatePhoneState pendingMo = null, rng= INCOMING(null/objId:129643349), fg= IDLE(), bg= IDLE()
+04-28 23:06:44.360  5521  5521 D ImsPhoneCallTracker: [1] updatePhoneState oldState=IDLE, newState=RINGING
+04-28 23:06:44.362  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 301, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.362  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.362  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.362  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.362  2953  3576 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:44.364  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 301, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.364  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.364  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.364  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.364  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:44.364  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.364  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.365  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.365  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.365  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:44.365  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.365  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.365  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.365  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.365  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:44.366  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.366  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.366  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.366  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.366  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:44.366  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.366  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.366  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.366  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.366  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:44.367  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:44.367  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.367  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:44.367  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:44.367  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:44.369  5521  5521 D ImsPhoneCallTracker: [1] onCallUpdated
+04-28 23:06:44.370  5521  5521 D ImsPhoneCallTracker: [1] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.370  5521  5521 D ImsPhoneCallTracker: [1] processCallStateChange state=INCOMING cause=0 ignoreState=true
+04-28 23:06:44.371  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.371  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.374  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.374  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.374  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:44.374  5521  5521 D ImsPhoneConnection: updateAddressDisplay: callId = null address = [****] name =  nump = 1 namep = 3
+04-28 23:06:44.374  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:44.374  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=INCOMING
+04-28 23:06:44.375  5521  5521 I FlashManager: registerListener....
+04-28 23:06:44.380  5521  5521 I FlashManager: isFlashEnabled = true
+04-28 23:06:44.393  5521  6412 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:44.393  5521  5521 D ImsPhone[1]: [1] handleMessage what=14
+04-28 23:06:44.393  5521  5521 D Phone   : Event EVENT_CALL_RING Received state=RINGING
+04-28 23:06:44.393  5521  5521 D Phone   : Sending notifyIncomingRing
+04-28 23:06:44.393  5521  5521 D QtiDSMGR-1: handleMessage: 2
+04-28 23:06:44.393  5521  6412 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:44.393  5521  5521 D QtiDSMGR-1: hasTempDdsSwitched = false
+04-28 23:06:44.393  5521  5521 D DSMGR-1 : mIsDataEnabled=true, prevDataEnabled=true
+04-28 23:06:44.393  5521  5521 D DNC-1   : handleMessage, msg.what = 270343
+04-28 23:06:44.393  5521  5521 E DNC-1   : Unexpected event 270343
+04-28 23:06:44.393  5521  5521 D MiuiDataControllerImpl[1]: onVoiceCallChange,getPhoneId = 0
+04-28 23:06:44.394  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:44.394  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:44.394  5521  5521 D MiuiDisplayInfoController: activeDataSubId = 4, otherPhoneIsInCall = false, isDsdaFullOrTxsConcurrencyState = true, isDsdaOrDsdalike = true, isDualDataConnected = false, subId = 4, phoneId = 0
+04-28 23:06:44.394  5521  5521 D MiuiDisplayInfoController: isInternetNetworkConnected = true, isDataSuspended = false, phoneId = 0
+04-28 23:06:44.394  5521  6257 D MiuiDefaultPhoneNotifierImpl: notifyDataConnectionForSubscriber[0] state = CONNECTED
+04-28 23:06:44.395  5521  6412 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:44.395  5521  5521 D DN-102-C: ConnectedState: updateNetworkCapabilities: Capabilities not changed.
+04-28 23:06:44.395  5521  5521 D PhoneSwitcher: handle event - 109
+04-28 23:06:44.396  5521  5521 D MiuiDisplayInfoController: EVENT_PRECISE_CALL_STATE_CHANGED
+04-28 23:06:44.396  5521  5521 D MiuiDisplayInfoController: handleCallStateChanged: false,isHasDelay=false,phone.getState(): RINGING
+04-28 23:06:44.401  5521  5521 D ImsPhoneCallTracker: [1] onCallUpdated
+04-28 23:06:44.401  5521  5521 D ImsPhoneCallTracker: [1] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.401  5521  5521 D ImsPhoneCallTracker: [1] processCallStateChange state=INCOMING cause=0 ignoreState=true
+04-28 23:06:44.402  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.402  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.403  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.403  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:44.403  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:44.404  5521  5521 I ImsPhoneConnection: updateMediaCapabilities: mediate attributes changed: codec = 2, bitRate=0.0, bandwidth=0.0
+04-28 23:06:44.404  5521  5521 D ImsPhoneConnection: updateAddressDisplay: callId = null address = [****] name =  nump = 1 namep = 3
+04-28 23:06:44.404  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:44.404  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=INCOMING
+04-28 23:06:44.409  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:2 key:display_hd_audio_property_bool result:true
+04-28 23:06:44.412  5521  5521 D FeatureConfiguration: Checking feature: FEATURE_DSDA
+04-28 23:06:44.412  5521  5521 D FeatureConfiguration: Feature FEATURE_DSDA build is supported, featureSupported=true
+04-28 23:06:44.416  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:44.416  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=0
+04-28 23:06:44.416  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:2 key:display_hd_audio_property_bool result:true
+04-28 23:06:44.417  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:RINGING
+04-28 23:06:44.417  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:44.417  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:44.417  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:44.420  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:2 key:config_use_cnap_presentation result:false
+04-28 23:06:44.422  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 2 userHandle = UserHandle{-10000}
+04-28 23:06:44.435  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 2 userHandle = UserHandle{-10000}
+04-28 23:06:44.450  5521  6406 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:44.518  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 2 userHandle = UserHandle{-10000}
+04-28 23:06:44.521  5521  5521 I RelayLog:  --> isInCallSupportRelay =true
+04-28 23:06:44.522  5521  5521 I RelayLog:  --> isAudioSupportRelay =true
+04-28 23:06:44.522  5521  5521 I RelayLog: RelayConnectionsManager --> getLocalConnectionCallRelaying, no Connection was found!
+04-28 23:06:44.522  5521  5521 I RelayLog: RelayServiceFilterUtils --> hasRelaying, false
+04-28 23:06:44.522  5521  5521 I RelayLog: RelayConnectionsManager --> getLocalConnectionCallRelayed, no Connection was found!
+04-28 23:06:44.522  5521  5521 I RelayLog: RelayServiceFilterUtils --> hasRelayed, false
+04-28 23:06:44.522  5521  5521 I RelayLog: RelayServiceFilterUtils --> Answered device is 
+04-28 23:06:44.522  5521  5521 I RelayLog: RelayServiceFilterUtils --> Filtered device size 0
+04-28 23:06:44.522  5521  5521 I RelayLog: PhoneContinuityController --> isContinuityServiceConnected, 0
+04-28 23:06:44.522  5521  5521 I RelayLog:  --> maybeRelayCall no - relay not connected
+04-28 23:06:44.528  5521  6406 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:44.528  5521  6406 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:44.530  5521  6406 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:44.600  5521  6406 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:44.612  5521  6412 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:44.623  5521  6412 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:44.629  5521  6505 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:44.634  5521  6407 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:44.634  5521  6407 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:44.635  5521  6505 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:44.636  5521  6406 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:2key: config_voicemail_ignore_sim config: false
+04-28 23:06:44.636  5521  6406 D GsmCdmaPhone: [1] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:44.640  5521  6406 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:44.665  5521  6409 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.666  5521  6409 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.666  5521  6409 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.671  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:44.672  5521  6407 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:44.679  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:44.679  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: RINGING
+04-28 23:06:44.686  5521  6407 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.686  5521  6407 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.686  5521  6407 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.691  5521  6409 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:44.695  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:44.706  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:44.706  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: RINGING
+04-28 23:06:44.711  5521  6406 D Phone   : isImsRegistered =true
+04-28 23:06:44.713  5521  6406 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.713  5521  6406 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.713  5521  6406 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.715  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:44.715  5521  6407 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.715  5521  6407 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.715  5521  6407 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.717  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:44.721  5521  6406 D Phone   : isImsRegistered =true
+04-28 23:06:44.723  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:44.723  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: RINGING
+04-28 23:06:44.751  5521  6552 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:44.768  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:44.773  5521  6406 D Phone   : isImsRegistered =true
+04-28 23:06:44.787  5521  6406 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.787  5521  6406 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.787  5521  6406 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.789  5521  6406 D Phone   : isImsRegistered =true
+04-28 23:06:44.798  5521  6406 D Phone   : isImsRegistered =true
+04-28 23:06:44.802  5521  6406 D Phone   : isImsRegistered =true
+04-28 23:06:44.818  5521  6552 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.818  5521  6552 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.818  5521  6552 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.820  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:44.826  5521  6552 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.827  5521  6552 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.827  5521  6552 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.829  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:44.835  5521  6552 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.835  5521  6552 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.835  5521  6552 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.837  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:44.845  5521  6552 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.845  5521  6552 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.845  5521  6552 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.847  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:44.870  5521  6552 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.870  5521  6552 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.870  5521  6552 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.874  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:44.889  5521  6552 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.889  5521  6552 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.889  5521  6552 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.892  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:44.903  5521  6552 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:44.903  5521  6552 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:44.903  5521  6552 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:44.908  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:44.975  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:44.975  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.975  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 311, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:44.975  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:44.976  2951  3573 I qcrilNrd: RIL Response bytes written:311
+04-28 23:06:44.989  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 311, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:44.989  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.989  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:44.989  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:44.989  2951  3573 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:44.991  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:44.991  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.991  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:44.991  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:44.991  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:44.992  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:44.992  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:44.992  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:44.992  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:44.992  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:45.000  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:45.001  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.001  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=true
+04-28 23:06:45.001  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.001  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.002  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.002  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.002  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:45.002  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:45.002  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:45.002  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:45.004  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:45.004  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.004  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=true
+04-28 23:06:45.005  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.005  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.007  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.007  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.007  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:45.007  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:45.007  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:45.007  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:45.201  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:45.201  2951  3573 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:45.201  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:45.201  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:45.202  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:45.202  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:45.203  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:45.203  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:45.205  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:45.205  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.205  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=true
+04-28 23:06:45.207  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.207  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.208  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.208  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:45.208  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:45.208  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:45.208  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:45.208  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:45.314  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:45.314  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:45.322  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:46.320  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:46.320  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:46.334  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:47.332  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:47.332  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:47.342  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:47.393  5521  5521 D ImsPhone[1]: [1] handleMessage what=15
+04-28 23:06:47.393  5521  5521 D Phone   : Event EVENT_CALL_RING_CONTINUE Received state=RINGING
+04-28 23:06:47.394  5521  5521 D Phone   : Sending notifyIncomingRing
+04-28 23:06:48.342  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:48.342  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:48.356  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:48.931  5521  6406 D Phone   : isImsRegistered =true
+04-28 23:06:48.933  5521  6552 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:48.933  5521  6552 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:48.933  5521  6552 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:48.933  5521  5521 D ImsPhoneCallTracker: [1] hangup call - reason=1
+04-28 23:06:48.933  5521  5521 D ImsPhoneCallTracker: [1] (ringing) hangup incoming
+04-28 23:06:48.935  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:48.941  5521  5521 D PhoneSwitcher: handle event - 109
+04-28 23:06:48.941  5521  5521 D MiuiDisplayInfoController: EVENT_PRECISE_CALL_STATE_CHANGED
+04-28 23:06:48.941  5521  5521 D MiuiDisplayInfoController: handleCallStateChanged: false,isHasDelay=false,phone.getState(): RINGING
+04-28 23:06:48.942  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=3
+04-28 23:06:48.942  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=3
+04-28 23:06:48.942  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:RINGING
+04-28 23:06:48.942  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:48.942  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:48.942  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:48.946  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:2 key:config_use_cnap_presentation result:false
+04-28 23:06:48.947  5521  6552 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.948  2953  3576 E qcrilNrd: onDisconnect: call failure cause = 25 in struct: call_end_reason_enum_v02 in file: voice_service_common_v02.h
+04-28 23:06:48.949  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 2 userHandle = UserHandle{-10000}
+04-28 23:06:48.960  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:48.960  2953  3576 I qcrilNrd: RIL Response bytes written:329
+04-28 23:06:48.961  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 329, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:48.961  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:48.961  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:48.961  2953  3576 I qcrilNrd: RIL Response bytes written:16
+04-28 23:06:48.962  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 16, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:48.962  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:48.962  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:48.962  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:48.962  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:48.962  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:48.962  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:48.962  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:48.962  5521  6406 D RILJ    : Unsol response received; Sending ack to ril.cpp [PHONE1]
+04-28 23:06:48.962  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:48.962  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:48.962  5521  6406 D RILJ    : [UNSL]< UNSOL_LCE_INFO_RECV [{mType=0, mDownlinkCapacityKbps=91, mUplinkCapacityKbps=-1}, {mType=1, mDownlinkCapacityKbps=0, mUplinkCapacityKbps=0}] [PHONE1]
+04-28 23:06:48.962  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:48.962  2953  3576 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:48.963  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:48.963  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:48.964  5521  6552 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.966  5521  5521 D ImsPhoneCallTracker: [1] onCallTerminated reasonCode=143
+04-28 23:06:48.966  5521  5521 D ImsPhoneCallTracker: [1] maybeRemapReasonCode : fromCode = 143 ; message = 
+04-28 23:06:48.968  5521  6406 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.969  5521  5521 D ImsPhoneCallTracker: [1] cause = 16 conn = [ImsPhoneConnection objId: 129643349 telecomCallID: TC@29_1 address: [****] isAdhocConf: N ImsCall: [ImsCall objId:75099660 onHold:N mute:N mCallProfile:{ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] } networkType:13 updateRequest:NONE merging:N merge action pending:N merged:N multiParty:N confHost:N buried term:N isVideo: N wasVideo: N isWifi: N session:[ImsCallSession objId:214144319 callId:1] transientSession:null]]
+04-28 23:06:48.969  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=3
+04-28 23:06:48.969  5521  5521 D ImsPhoneCallTracker: [1] Incoming connection of 0 connect time detected - translated cause = 16
+04-28 23:06:48.972  5521  6406 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.973  5521  5521 D ImsPhoneCallTracker: [1] maybeRemapReasonCode : fromCode = 143 ; message = 
+04-28 23:06:48.974  5521  5521 D VoiceCallSessionStats: Time per codec quality = [0, 0, 4570, 0, 0]
+04-28 23:06:48.978  5521  5521 D VoiceCallSessionStats: getVoiceRatWithVoNRFix: oldRat=20, newRat=20
+04-28 23:06:48.978  5521  6406 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: Add new voice call session: band_at_end: 41
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: bearer_at_end: 2
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: bearer_at_start: 2
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: call_duration: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: carrier_id: 1435
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: codec_bitmask: 4
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: concurrent_call_count_at_end: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: concurrent_call_count_at_start: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: direction: 2
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: disconnect_extra_code: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: disconnect_extra_message: ""
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: disconnect_reason_code: 143
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: fold_state: 1
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: is_emergency: false
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: is_esim: false
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: is_multi_sim: true
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: is_multiparty: false
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: is_roaming: false
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: last_known_rat: 20
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: main_codec_quality: 2
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: rat_at_connected: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: rat_at_end: 20
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: rat_at_start: 20
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: rat_switch_count: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: rtt_enabled: false
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: setup_begin_millis: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: setup_duration_millis: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: setup_failed: true
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: signal_strength_at_end: 3
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: sim_slot_index: 1
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: srvcc_cancellation_count: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: srvcc_completed: false
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: srvcc_failure_count: 0
+04-28 23:06:48.978  5521  5521 D PersistAtomsStorage: video_enabled: false
+04-28 23:06:48.981  5521  5521 D ImsPhoneCallTracker: [1] maybeRemapReasonCode : fromCode = 143 ; message = 
+04-28 23:06:48.982  5521  5521 D ImsPhoneCallTracker: [1] processCallStateChange [ImsCall objId:75099660 onHold:N mute:N mCallProfile:{ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] } networkType:13 updateRequest:NONE merging:N merge action pending:N merged:N multiParty:N confHost:N buried term:N isVideo: N wasVideo: N isWifi: N session:[ImsCallSession objId:214144319 callId:1] transientSession:null] state=DISCONNECTED cause=16
+04-28 23:06:48.982  5521  5521 D ImsPhoneCallTracker: [1] processCallStateChange state=DISCONNECTED cause=16 ignoreState=false
+04-28 23:06:48.982  5521  6406 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.982  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:48.982  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:48.982  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:48.982  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:48.982  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:48.983  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=DISCONNECTED
+04-28 23:06:48.983  5521  5521 D ImsPhoneConnection: updateAddressDisplay: callId = TC@29_1 address = [****] name =  nump = 1 namep = 3
+04-28 23:06:48.983  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:48.983  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=2, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:48.983  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:48.983  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:48.983  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:48.983  5521  5521 D ImsPhoneConnection: onDisconnect: cause=16
+04-28 23:06:48.983  5521  5521 I Connection: notifyDisconnect: callId=TC@29_1, reason=16
+04-28 23:06:48.984  5521  5521 D ImsPhoneConnection: releaseWakeLock
+04-28 23:06:48.985  5521  5521 D ImsPhoneCallTracker: [1] updatePhoneState pendingMo = null, rng= IDLE(), fg= IDLE(), bg= IDLE()
+04-28 23:06:48.985  5521  5521 D ImsPhoneCallTracker: [1] updatePhoneState oldState=RINGING, newState=IDLE
+04-28 23:06:48.985  5521  6406 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.985  5521  6409 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:48.986  5521  6409 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:48.986  5521  5521 D QtiGsmCdmaPhone: [1 ] handleMessage: Event: 59
+04-28 23:06:48.986  5521  5521 D GsmCdmaPhone: [1] updateLinkCapacityEstimate: lce list=[{mType=0, mDownlinkCapacityKbps=91, mUplinkCapacityKbps=-1}, {mType=1, mDownlinkCapacityKbps=0, mUplinkCapacityKbps=0}]
+04-28 23:06:48.987  5521  6409 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:48.988  5521  6406 D Phone   : isImsRegistered =true
+04-28 23:06:48.989  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.990  5521  6284 D FeatureConfiguration: Checking feature: FEATURE_DSDA
+04-28 23:06:48.990  5521  6284 D FeatureConfiguration: Feature FEATURE_DSDA build is supported, featureSupported=true
+04-28 23:06:48.990  5521  6284 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:48.990  5521  6284 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:48.991  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=16
+04-28 23:06:48.991  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=16
+04-28 23:06:48.991  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=16
+04-28 23:06:48.994  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.996  5521  6284 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:48.996  5521  6284 D MiuiDsdaStatistic: nonDataSlot: 1 , isVideoCallfalse
+04-28 23:06:48.997  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:DISCONNECTED
+04-28 23:06:48.997  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:48.997  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:48.997  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:48.997  5521  5521 D QtiDSMGR-1: handleMessage: 2
+04-28 23:06:48.997  5521  5521 D QtiDSMGR-1: hasTempDdsSwitched = false
+04-28 23:06:48.997  5521  5521 D DSMGR-1 : mIsDataEnabled=true, prevDataEnabled=true
+04-28 23:06:48.997  5521  5521 D DNC-1   : handleMessage, msg.what = 18
+04-28 23:06:48.997  5521  5521 D MiuiDataControllerImpl[1]: onVoiceCallChange,getPhoneId = 0
+04-28 23:06:48.998  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:48.998  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:48.998  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:48.998  5521  5521 D MiuiDisplayInfoController: activeDataSubId = 4, otherPhoneIsInCall = false, isDsdaFullOrTxsConcurrencyState = true, isDsdaOrDsdalike = true, isDualDataConnected = false, subId = 4, phoneId = 0
+04-28 23:06:48.998  5521  5521 D MiuiDisplayInfoController: isInternetNetworkConnected = true, isDataSuspended = false, phoneId = 0
+04-28 23:06:48.998  5521  6257 D MiuiDefaultPhoneNotifierImpl: notifyDataConnectionForSubscriber[0] state = CONNECTED
+04-28 23:06:48.999  5521  5521 D DN-102-C: ConnectedState: updateNetworkCapabilities: Capabilities not changed.
+04-28 23:06:48.999  5521  5521 D PhoneSwitcher: handle event - 109
+04-28 23:06:48.999  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:48.999  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:48.999  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:48.999  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:48.999  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:48.999  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:49.000  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:49.000  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:49.000  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:49.000  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:49.001  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:49.001  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:49.001  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:49.001  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:49.001  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:49.001  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:49.001  5521  5521 D PhoneSwitcher: isPhoneInVoiceCallChanged: mPhoneIdInVoiceCall=-1
+04-28 23:06:49.001  5521  5521 D PhoneSwitcher: EVENT_PRECISE_CALL_STATE_CHANGED Enforce evaluating once after call ends
+04-28 23:06:49.001  5521  5521 D MiuiPhoneSwitcherImpl: updatePreferredDataPhoneId  TempDataPhoneId=-1,isTempDdsSwitchEnabled=false
+04-28 23:06:49.001  5521  5521 D MiuiDisplayInfoController: EVENT_PRECISE_CALL_STATE_CHANGED
+04-28 23:06:49.001  5521  5521 D MiuiDisplayInfoController: handleCallStateChanged: false,isHasDelay=false,phone.getState(): IDLE
+04-28 23:06:49.002  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.003  5521  5521 D RILJ    : [8821]> GET_ACTIVITY_INFO [PHONE0]
+04-28 23:06:49.003  5521  5521 D DNC-1   : handleMessage, msg.what = 16
+04-28 23:06:49.003  5521  5521 D DNC-1   : Re-evaluating 1 existing data networks due to VOICE_CALL_ENDED
+04-28 23:06:49.003  5521  5521 D DNC-1   : addDataDisallowedReasonWhenInSecureMode: mIsInSecureMode = false
+04-28 23:06:49.003  5521  5521 D MiuiDataControllerImpl[1]: isFdnEnableSupport = false
+04-28 23:06:49.003  5521  5521 D MiuiDataControllerImpl[1]: isFdnEnabled = false
+04-28 23:06:49.004  5521  5521 D QtiDSMGR-1: hasTempDdsSwitched = false
+04-28 23:06:49.004  5521  5521 D DNC-1   : Evaluated [DataNetwork: DN-102-C, ims, state=ConnectedState], Data evaluation: evaluation reason:VOICE_CALL_ENDED, Data allowed reason: NORMAL, candidate profile=null, time=23:06:49.004
+04-28 23:06:49.007  5521  6406 D RILJ    : [8821]< GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=1401549385 mSleepTimeMs=92 mIdleTimeMs=4 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=6922}]} [PHONE0]
+04-28 23:06:49.008  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.012  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.016  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.020  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.024  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.028  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.032  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.037  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.040  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.044  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.047  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.050  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.054  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.064  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.068  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.071  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.075  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.078  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.082  5521  6409 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:49.085  2674  6744 D FeatureConfiguration: Checking feature: FEATURE_HNAGUP_OPTIMIZATION_V3
+04-28 23:06:49.085  2674  6744 D FeatureConfiguration: Feature FEATURE_HNAGUP_OPTIMIZATION_V3 build is supported, featureSupported=true
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: formatNumber exception: 
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: Error type: NOT_A_NUMBER. The string supplied did not seem to be a phone number.
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.i18n.phonenumbers.PhoneNumberUtil.parseHelper(PhoneNumberUtil.java:3287)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.i18n.phonenumbers.PhoneNumberUtil.parseAndKeepRawInput(PhoneNumberUtil.java:3197)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.i18n.phonenumbers.PhoneNumberUtil.parseAndKeepRawInput(PhoneNumberUtil.java:3186)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at android.telephony.PhoneNumberUtils.formatNumber(PhoneNumberUtils.java:1665)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.server.telecom.CallLogManager.logCall(CallLogManager.java:322)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.server.telecom.CallLogManager.logCall(CallLogManager.java:279)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.server.telecom.CallLogManager.onCallStateChanged(CallLogManager.java:157)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.server.telecom.CallsManager.notifyCallStateChanged(CallsManager.java:4815)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.server.telecom.CallsManager.setCallState(CallsManager.java:4792)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.server.telecom.CallsManager.markCallAsDisconnected(CallsManager.java:4070)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.server.telecom.ConnectionServiceWrapper$Adapter.setDisconnected(ConnectionServiceWrapper.java:314)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at com.android.internal.telecom.IConnectionServiceAdapter$Stub.onTransact(IConnectionServiceAdapter.java:445)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+04-28 23:06:49.086  2674  6744 E PhoneNumberUtils: 	at android.os.Binder.execTransact(Binder.java:1282)
+04-28 23:06:49.104  5521  5521 D RILJ    : [8822]> GET_ACTIVITY_INFO [PHONE0]
+04-28 23:06:49.107  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:49.108  5521  6406 D RILJ    : [8822]< GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=1401549487 mSleepTimeMs=0 mIdleTimeMs=0 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]} [PHONE0]
+04-28 23:06:49.109  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:49.109  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: OFFHOOK
+04-28 23:06:49.109  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:49.109  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: OFFHOOK
+04-28 23:06:49.110  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:49.110  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: OFFHOOK
+04-28 23:06:49.117  5521  6406 D InternalTelephonyUtils: isValidChinaMobileNumber = false
+04-28 23:06:49.118  5521  6409 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:49.118  5521  6409 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:49.118  5521  6409 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:49.122  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:49.123  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:49.138  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:49.141  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:49.142  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:49.144  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:49.145  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:49.149  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:49.153  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:49.154  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:49.167  5521  6409 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:49.167  5521  6409 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:49.167  5521  6409 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:49.168  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:49.174  5521  6409 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:49.174  5521  6409 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:49.174  5521  6409 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:49.177  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:49.298  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:49.298  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.298  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.298  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.299  2951  3573 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:49.302  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:49.302  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.302  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=true
+04-28 23:06:49.303  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.303  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.303  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.303  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.303  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:49.303  5521  5521 I ImsPhoneConnection: updateMediaCapabilities: mediate attributes changed: codec = 1, bitRate=0.0, bandwidth=0.0
+04-28 23:06:49.304  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:49.304  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:49.304  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:49.305  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:display_hd_audio_property_bool result:true
+04-28 23:06:49.309  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:49.314  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:49.316  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:49.316  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.316  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.316  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.316  2951  3573 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:49.318  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:49.318  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.318  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=true
+04-28 23:06:49.319  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.319  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.319  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.319  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.320  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:49.320  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:49.320  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:49.320  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:49.323  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:49.325  5521  6407 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:49.325  5521  6409 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:49.326  5521  6409 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:49.326  5521  6409 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:49.326  5521  6409 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:49.327  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:49.327  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.327  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.327  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.327  2951  3573 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:49.328  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:49.328  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.328  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.328  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.328  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:49.328  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:49.328  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.328  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.328  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.328  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:49.330  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:49.330  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.330  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=true
+04-28 23:06:49.331  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.331  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.331  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:49.331  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.331  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.331  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:49.332  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:49.332  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:49.332  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:49.353  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:49.353  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:49.365  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:49.484  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:49.484  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.484  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 311, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.484  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.484  2951  3573 I qcrilNrd: RIL Response bytes written:311
+04-28 23:06:49.487  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:49.487  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.487  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=true
+04-28 23:06:49.487  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.488  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.488  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.488  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.488  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:49.488  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:49.488  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:49.488  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:49.497  5521  5521 D DNC-1   : handleMessage, msg.what = 5
+04-28 23:06:49.497  5521  5521 D DNC-1   : Re-evaluating 0 unsatisfied network requests in 0 groups,  due to VOICE_CALL_ENDED
+04-28 23:06:49.500  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.500  2951  3573 I qcrilNrd: RIL Response bytes written:301
+04-28 23:06:49.501  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 301, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.501  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.501  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.501  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:49.501  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.501  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.501  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:49.501  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:49.501  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:49.502  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:49.504  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated
+04-28 23:06:49.504  5521  5521 D ImsPhoneCallTracker: [0] onCallUpdated: profile is { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.504  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=ALERTING cause=0 ignoreState=true
+04-28 23:06:49.505  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.506  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.507  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.507  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:49.507  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:49.507  5521  5521 I ImsPhoneConnection: maybeChangeRingbackState
+04-28 23:06:49.507  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=ALERTING
+04-28 23:06:49.507  5521  5521 I ImsPhoneCall: isLocalTone: audioDirection=3, playRingback=false
+04-28 23:06:50.358  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:50.358  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:50.369  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:50.394  5521  5521 D ImsPhone[1]: [1] handleMessage what=15
+04-28 23:06:50.394  5521  5521 D Phone   : Event EVENT_CALL_RING_CONTINUE Received state=IDLE
+04-28 23:06:50.922  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:50.924  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:50.924  5521  6407 D Phone   : isImsRegistered =true
+04-28 23:06:50.924  2674  4794 D FeatureConfiguration: Checking feature: FEATURE_HNAGUP_OPTIMIZATION_V3
+04-28 23:06:50.924  2674  4794 D FeatureConfiguration: Feature FEATURE_HNAGUP_OPTIMIZATION_V3 build is supported, featureSupported=true
+04-28 23:06:50.929  5521  5521 D ImsPhoneCallTracker: [0] hangup connection[ImsCall objId:119423273 onHold:N mute:N mCallProfile:{ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] } networkType:13 updateRequest:NONE merging:N merge action pending:N merged:N multiParty:N confHost:N buried term:N isVideo: N wasVideo: N isWifi: N session:[ImsCallSession objId:98107056 callId:1] transientSession:null]
+04-28 23:06:50.929  5521  5521 D ImsPhoneCallTracker: [0] hangup call - reason=1
+04-28 23:06:50.929  5521  5521 D ImsPhoneCallTracker: [0] (foregnd) hangup dialing or alerting...
+04-28 23:06:50.935  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:50.941  5521  5521 D PhoneSwitcher: handle event - 109
+04-28 23:06:50.941  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:50.941  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:50.942  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:50.942  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:50.942  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:50.942  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:50.942  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:50.942  2951  3573 I qcrilNrd: RIL Response bytes written:76
+04-28 23:06:50.943  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 76, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:50.943  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:50.943  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:50.943  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:50.943  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:50.943  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:50.944  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:50.944  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:50.944  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:50.944  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:50.944  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:50.944  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:50.944  5521  5521 D PhoneSwitcher: isPhoneInVoiceCallChanged: mPhoneIdInVoiceCall=-1
+04-28 23:06:50.944  5521  5521 D PhoneSwitcher: EVENT_PRECISE_CALL_STATE_CHANGED Enforce evaluating once after call ends
+04-28 23:06:50.944  5521  5521 D MiuiPhoneSwitcherImpl: updatePreferredDataPhoneId  TempDataPhoneId=-1,isTempDdsSwitchEnabled=false
+04-28 23:06:50.945  5521  5521 D MiuiDisplayInfoController: EVENT_PRECISE_CALL_STATE_CHANGED
+04-28 23:06:50.945  5521  5521 D MiuiDisplayInfoController: handleCallStateChanged: false,isHasDelay=false,phone.getState(): OFFHOOK
+04-28 23:06:50.947  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=3
+04-28 23:06:50.947  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=3
+04-28 23:06:50.947  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:DIALING
+04-28 23:06:50.947  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:50.947  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:50.947  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:50.950  5521  5521 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4 key:config_use_cnap_presentation result:false
+04-28 23:06:50.952  2951  3573 E qcrilNrd: onDisconnect: call failure cause = 29 in struct: call_end_reason_enum_v02 in file: voice_service_common_v02.h
+04-28 23:06:50.954  5521  5521 V SMSVC   : getSubscriptionUserHandle subId = 4 userHandle = UserHandle{-10000}
+04-28 23:06:50.955  5521  6409 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:50.955  5521  6409 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:50.955  5521  6409 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:50.966  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:50.969  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:50.969  2951  3573 I qcrilNrd: RIL Response bytes written:329
+04-28 23:06:50.969  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 329, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:50.970  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:50.972  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:50.972  2951  3573 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:50.972  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:50.972  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:50.972  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:50.972  2951  3573 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:50.973  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:50.973  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:50.973  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:50.973  2951  3573 I qcrilNrd: RIL Response bytes written:79
+04-28 23:06:50.973  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 79, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:50.973  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:50.977  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:50.985  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:50.986  5521  5521 D ImsPhoneCallTracker: [0] onCallTerminated reasonCode=501
+04-28 23:06:50.986  5521  5521 D ImsPhoneCallTracker: [0] maybeRemapReasonCode : fromCode = 501 ; message = 
+04-28 23:06:50.987  5521  5521 D ImsPhoneCallTracker: [0] cause = 3 conn = [ImsPhoneConnection objId: 211148589 telecomCallID: TC@28_1 address: [****] isAdhocConf: N ImsCall: [ImsCall objId:119423273 onHold:N mute:N mCallProfile:{ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] } networkType:13 updateRequest:NONE merging:N merge action pending:N merged:N multiParty:N confHost:N buried term:N isVideo: N wasVideo: N isWifi: N session:[ImsCallSession objId:98107056 callId:1] transientSession:null]]
+04-28 23:06:50.987  5521  5521 D ImsPhoneCallTracker: [0] maybeRemapReasonCode : fromCode = 501 ; message = 
+04-28 23:06:50.988  5521  5521 D VoiceCallSessionStats: Time per codec quality = [0, 1684, 5370, 0, 0]
+04-28 23:06:50.988  5521  5521 D VoiceCallSessionStats: getVoiceRatWithVoNRFix: oldRat=20, newRat=20
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: Add new voice call session: band_at_end: 41
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: bearer_at_end: 2
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: bearer_at_start: 2
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: call_duration: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: carrier_id: 1435
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: codec_bitmask: 6
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: concurrent_call_count_at_end: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: concurrent_call_count_at_start: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: direction: 1
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: disconnect_extra_code: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: disconnect_extra_message: ""
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: disconnect_reason_code: 501
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: fold_state: 1
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: is_emergency: false
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: is_esim: false
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: is_multi_sim: true
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: is_multiparty: false
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: is_roaming: false
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: last_known_rat: 20
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: main_codec_quality: 2
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: rat_at_connected: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: rat_at_end: 20
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: rat_at_start: 20
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: rat_switch_count: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: rtt_enabled: false
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: setup_begin_millis: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: setup_duration_millis: 1770
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: setup_failed: true
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: signal_strength_at_end: 3
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: sim_slot_index: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: srvcc_cancellation_count: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: srvcc_completed: false
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: srvcc_failure_count: 0
+04-28 23:06:50.989  5521  5521 D PersistAtomsStorage: video_enabled: false
+04-28 23:06:50.990  5521  5521 D ImsPhoneCallTracker: [0] maybeRemapReasonCode : fromCode = 501 ; message = 
+04-28 23:06:50.991  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange [ImsCall objId:119423273 onHold:N mute:N mCallProfile:{ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] } networkType:13 updateRequest:NONE merging:N merge action pending:N merged:N multiParty:N confHost:N buried term:N isVideo: N wasVideo: N isWifi: N session:[ImsCallSession objId:98107056 callId:1] transientSession:null] state=DISCONNECTED cause=3
+04-28 23:06:50.991  5521  5521 D ImsPhoneCallTracker: [0] processCallStateChange state=DISCONNECTED cause=3 ignoreState=false
+04-28 23:06:50.992  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:50.992  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:50.992  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:50.992  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:50.992  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:50.993  5521  5521 I ImsPhoneCall: maybeChangeRingbackState: state=DISCONNECTED
+04-28 23:06:50.993  5521  5521 V ImsPhoneConnection: update localCallProfile={ serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:50.993  5521  5521 I ImsPhoneConnection: applyLocalCallCapabilities - localProfile = { serviceType=1, callType=2, restrictCause=0, mediaProfile={ audioQuality=1, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:50.994  5521  5521 V ImsPhoneConnection: update remoteCallProfile={ serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:50.994  5521  5521 W ImsPhoneConnection: applyRemoteCallCapabilities - remoteProfile = { serviceType=1, callType=3, restrictCause=0, mediaProfile={ audioQuality=0, audioDirection=3, audioCodecAttribute=null, videoQuality=0, videoDirection=-1, rttMode=0, hasRttAudioSpeech=false }, emergencyServiceCategories=0, emergencyUrns=[], emergencyCallRouting=0, emergencyCallTesting=false, hasKnownUserIntentEmergency=false, mRestrictCause=0, mCallerNumberVerstat= 0, mAcceptedRtpHeaderExtensions= [] }
+04-28 23:06:50.994  5521  5521 V ImsPhoneConnection: data is not metered
+04-28 23:06:50.994  5521  5521 D ImsPhoneConnection: onDisconnect: cause=3
+04-28 23:06:50.994  5521  5521 I Connection: notifyDisconnect: callId=TC@28_1, reason=3
+04-28 23:06:50.995  5521  5521 D ImsPhoneConnection: releaseWakeLock
+04-28 23:06:50.997  5521  5521 D ImsPhoneCallTracker: [0] updatePhoneState pendingMo = null, rng= IDLE(), fg= IDLE(), bg= IDLE()
+04-28 23:06:50.997  5521  5521 D ImsPhoneCallTracker: [0] updatePhoneState oldState=OFFHOOK, newState=IDLE
+04-28 23:06:51.003  5521  6409 D FeatureConfiguration: Checking feature: FEATURE_DUAL_VOLTE
+04-28 23:06:51.003  5521  6409 D FeatureConfiguration: Feature FEATURE_DUAL_VOLTE build is supported, featureSupported=true
+04-28 23:06:51.004  5521  6409 D ImsManagerIM [0]: getLocalImsConfigKeInt() for key:68, result: 0
+04-28 23:06:51.004  5521  6284 D FeatureConfiguration: Checking feature: FEATURE_DSDA
+04-28 23:06:51.005  5521  6284 D FeatureConfiguration: Feature FEATURE_DSDA build is supported, featureSupported=true
+04-28 23:06:51.005  5521  6284 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:51.006  5521  6284 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:51.007  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=3
+04-28 23:06:51.007  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=3
+04-28 23:06:51.008  5521  5521 D ImsPhoneConnection: getDisconnectCause: cause=3
+04-28 23:06:51.009  5521  6409 D Phone   : isImsRegistered =true
+04-28 23:06:51.009  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged state:DISCONNECTED
+04-28 23:06:51.009  5521  5521 I RelayLog:  --> isCallRelayed: No!
+04-28 23:06:51.009  5521  5521 I RelayLog:  --> isCallRelaying: No!
+04-28 23:06:51.009  5521  5521 I RelayLog: RelayManager --> onRelayCallStateChanged not update
+04-28 23:06:51.009  5521  5521 D QtiDSMGR-0: handleMessage: 2
+04-28 23:06:51.009  5521  5521 D QtiDSMGR-0: hasTempDdsSwitched = false
+04-28 23:06:51.010  5521  5521 D DSMGR-0 : mIsDataEnabled=true, prevDataEnabled=true
+04-28 23:06:51.010  5521  5521 D DNC-0   : handleMessage, msg.what = 18
+04-28 23:06:51.010  5521  5521 D MiuiDataControllerImpl[0]: onVoiceCallChange,getPhoneId = 1
+04-28 23:06:51.011  5521  5521 D DN-142-C: ConnectedState: updateNetworkCapabilities: Capabilities not changed.
+04-28 23:06:51.011  5521  5521 D DN-143-C: ConnectedState: updateNetworkCapabilities: Capabilities not changed.
+04-28 23:06:51.011  5521  5521 D PhoneSwitcher: handle event - 109
+04-28 23:06:51.012  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:51.012  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:51.012  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:51.012  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:51.012  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:51.012  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:51.013  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:51.013  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:51.013  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:51.013  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:51.013  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:51.013  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:51.013  5521  5521 D MiuiDataControllerImpl: Qcom Dsda State = true
+04-28 23:06:51.013  5521  5521 D MiuiDataControllerImpl: isCurrentDSDAState:true
+04-28 23:06:51.014  5521  5521 D MiuiPhoneSwitcherImpl: isViceVolteDataEnabled: false, isCurrentDsdaState: true, isDsdaFullConcurrencyState: false, isPlatformDE30: true, isPlatformDE50: false, isVicePhoneInVoiceCall: false
+04-28 23:06:51.014  5521  5521 D PhoneSwitcher: phoneInVoiceCall:false
+04-28 23:06:51.014  5521  5521 D PhoneSwitcher: isPhoneInVoiceCallChanged: mPhoneIdInVoiceCall=-1
+04-28 23:06:51.014  5521  5521 D PhoneSwitcher: EVENT_PRECISE_CALL_STATE_CHANGED Enforce evaluating once after call ends
+04-28 23:06:51.014  5521  5521 D MiuiPhoneSwitcherImpl: updatePreferredDataPhoneId  TempDataPhoneId=-1,isTempDdsSwitchEnabled=false
+04-28 23:06:51.014  5521  5521 D MiuiDisplayInfoController: EVENT_PRECISE_CALL_STATE_CHANGED
+04-28 23:06:51.014  5521  5521 D MiuiDisplayInfoController: handleCallStateChanged: false,isHasDelay=false,phone.getState(): IDLE
+04-28 23:06:51.015  5521  5521 D RILJ    : [8823]> GET_ACTIVITY_INFO [PHONE0]
+04-28 23:06:51.015  5521  5521 D DNC-0   : handleMessage, msg.what = 16
+04-28 23:06:51.015  5521  5521 D DNC-0   : Re-evaluating 2 existing data networks due to VOICE_CALL_ENDED
+04-28 23:06:51.015  5521  5521 D DNC-0   : addDataDisallowedReasonWhenInSecureMode: mIsInSecureMode = false
+04-28 23:06:51.015  5521  5521 D MiuiDataControllerImpl[0]: isFdnEnableSupport = false
+04-28 23:06:51.015  5521  5521 D MiuiDataControllerImpl[0]: isFdnEnabled = false
+04-28 23:06:51.015  5521  5521 D QtiDSMGR-0: hasTempDdsSwitched = false
+04-28 23:06:51.015  5521  5521 D QtiDSMGR-0: isInternetDataAllowedByPlatform = true
+04-28 23:06:51.016  5521  5521 D DNC-0   : Evaluated [DataNetwork: DN-142-C, cmnet, state=ConnectedState], Data evaluation: evaluation reason:VOICE_CALL_ENDED, Data allowed reason: NORMAL, candidate profile=null, time=23:06:51.015
+04-28 23:06:51.016  5521  5521 D DNC-0   : addDataDisallowedReasonWhenInSecureMode: mIsInSecureMode = false
+04-28 23:06:51.016  5521  5521 D MiuiDataControllerImpl[0]: isFdnEnableSupport = false
+04-28 23:06:51.016  5521  5521 D MiuiDataControllerImpl[0]: isFdnEnabled = false
+04-28 23:06:51.016  5521  5521 D QtiDSMGR-0: hasTempDdsSwitched = false
+04-28 23:06:51.016  5521  5521 D DNC-0   : Evaluated [DataNetwork: DN-143-C, ims, state=ConnectedState], Data evaluation: evaluation reason:VOICE_CALL_ENDED, Data allowed reason: NORMAL, candidate profile=null, time=23:06:51.016
+04-28 23:06:51.017  5521  6284 D MiuiPhoneInterfaceManager: isConcurrentCallsPossible true
+04-28 23:06:51.017  5521  6552 D RILJ    : [8823]< GET_ACTIVITY_INFO ModemActivityInfo{ mTimestamp=1401551396 mSleepTimeMs=0 mIdleTimeMs=0 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[0, 0, 0, 0, 0],mRxTimeMs=0}]} [PHONE0]
+04-28 23:06:51.024  5521  6552 D Phone   : isImsRegistered =true
+04-28 23:06:51.026  2674  9269 D FeatureConfiguration: Checking feature: FEATURE_DSDA
+04-28 23:06:51.026  2674  9269 D FeatureConfiguration: Feature FEATURE_DSDA build is supported, featureSupported=true
+04-28 23:06:51.027  2674  9269 D FeatureConfiguration: Checking feature: FEATURE_HNAGUP_OPTIMIZATION_V3
+04-28 23:06:51.027  2674  9269 D FeatureConfiguration: Feature FEATURE_HNAGUP_OPTIMIZATION_V3 build is supported, featureSupported=true
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: formatNumber exception: 
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: Error type: NOT_A_NUMBER. The string supplied did not seem to be a phone number.
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.i18n.phonenumbers.PhoneNumberUtil.parseHelper(PhoneNumberUtil.java:3287)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.i18n.phonenumbers.PhoneNumberUtil.parseAndKeepRawInput(PhoneNumberUtil.java:3197)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.i18n.phonenumbers.PhoneNumberUtil.parseAndKeepRawInput(PhoneNumberUtil.java:3186)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at android.telephony.PhoneNumberUtils.formatNumber(PhoneNumberUtils.java:1665)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.server.telecom.CallLogManager.logCall(CallLogManager.java:322)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.server.telecom.CallLogManager.logCall(CallLogManager.java:279)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.server.telecom.CallLogManager.onCallStateChanged(CallLogManager.java:157)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.server.telecom.CallsManager.notifyCallStateChanged(CallsManager.java:4815)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.server.telecom.CallsManager.setCallState(CallsManager.java:4792)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.server.telecom.CallsManager.markCallAsDisconnected(CallsManager.java:4070)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.server.telecom.ConnectionServiceWrapper$Adapter.setDisconnected(ConnectionServiceWrapper.java:314)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at com.android.internal.telecom.IConnectionServiceAdapter$Stub.onTransact(IConnectionServiceAdapter.java:445)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+04-28 23:06:51.028  2674  9269 E PhoneNumberUtils: 	at android.os.Binder.execTransact(Binder.java:1282)
+04-28 23:06:51.038  5521  6505 D Phone   : isImsRegistered =true
+04-28 23:06:51.050  5521  5570 D Phone   : isImsRegistered =true
+04-28 23:06:51.061  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:51.061  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: IDLE
+04-28 23:06:51.061  5521  5521 I FlashManager: unregisterListener....
+04-28 23:06:51.075  5521  6505 D Phone   : isImsRegistered =true
+04-28 23:06:51.091  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:51.091  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: IDLE
+04-28 23:06:51.094  5521  5521 I FlashManager: unregisterListener....
+04-28 23:06:51.111  5521  5521 D PhoneReceiver: Received action:android.intent.action.PHONE_STATE
+04-28 23:06:51.111  5521  5521 D PhoneReceiver: ACTION_PHONE_STATE_CHANGED phoneid: -1 state: IDLE
+04-28 23:06:51.112  5521  5521 I FlashManager: unregisterListener....
+04-28 23:06:51.209  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:51.209  2953  3576 I qcrilNrd: RIL Response bytes written:342
+04-28 23:06:51.210  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 342, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:51.210  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:51.210  5521  6552 D RILJ    : Unsol response received; Sending ack to ril.cpp [PHONE1]
+04-28 23:06:51.212  5521  5570 D RILJ    : Unsol response received; Sending ack to ril.cpp [PHONE1]
+04-28 23:06:51.212  5521  5570 D RILJ    : [UNSL]< UNSOL_LCE_INFO_RECV [{mType=0, mDownlinkCapacityKbps=-1, mUplinkCapacityKbps=-1}, {mType=1, mDownlinkCapacityKbps=0, mUplinkCapacityKbps=0}] [PHONE1]
+04-28 23:06:51.212  5521  6552 D RILJ    : [UNSL]< UNSOL_DATA_CALL_LIST_CHANGED [DataCallResponse: { cause=NONE(0x0) retry=-1 cid=0 linkStatus=1 protocolType=1 ifname=rmnet_data2240x:812x:c7x:23x:98bx:d7fx:fecx:efx/64] dnses=[/240x:802x:200xx:6x,/240x:802x:200xx:x gateways=[/fe80::e5c1:d51f:97f5:23f0] pcscf=[/2409:8020:5002:93d::c, /2409:8020:5002:93d::1c] mtu=1500 mtuV4=0 mtuV6=1500 handoverFailureMode=legacy pduSessionId=0 defaultQos=null qosBearerSessions=[] sliceInfo=null trafficDescriptors=[TrafficDescriptor={mDnn=ims, null}]}] [PHONE1]
+04-28 23:06:51.213  2953  3576 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:51.213  2953  3576 I qcrilNrd: RIL Response bytes written:16
+04-28 23:06:51.213  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 342, ret: -1, errno: 11, errStr: Try again, socket fd: 33
+04-28 23:06:51.213  1894  3707 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3707)] listenForResponses: record_stream_get_next: recordLen: 16, ret: 0, errno: 0, errStr: Success, socket fd: 33
+04-28 23:06:51.213  1894  3707 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3707)] listenForResponses: Got a response parcel
+04-28 23:06:51.213  5521  5521 D QtiGsmCdmaPhone: [1 ] handleMessage: Event: 59
+04-28 23:06:51.213  5521  5521 D GsmCdmaPhone: [1] updateLinkCapacityEstimate: lce list=[{mType=0, mDownlinkCapacityKbps=-1, mUplinkCapacityKbps=-1}, {mType=1, mDownlinkCapacityKbps=0, mUplinkCapacityKbps=0}]
+04-28 23:06:51.217  5521  5521 D DN-102-C: ConnectedState: onDataStateChanged: DataCallResponse: { cause=NONE(0x0) retry=-1 cid=0 linkStatus=1 protocolType=1 ifname=rmnet_data2240x:812x:c7x:23x:98bx:d7fx:fecx:efx/64] dnses=[/240x:802x:200xx:6x,/240x:802x:200xx:x gateways=[/fe80::e5c1:d51f:97f5:23f0] pcscf=[/2409:8020:5002:93d::c, /2409:8020:5002:93d::1c] mtu=1500 mtuV4=0 mtuV6=1500 handoverFailureMode=legacy pduSessionId=0 defaultQos=null qosBearerSessions=[] sliceInfo=null trafficDescriptors=[TrafficDescriptor={mDnn=ims, null}]}
+04-28 23:06:51.217  5521  5521 D DN-102-C: ConnectedState: Link status updated to DORMANT
+04-28 23:06:51.217  5521  5521 D MiuiDataControllerImpl[1]: getMtuForJpKddi ret=-1
+04-28 23:06:51.218  5521  5521 D DN-102-C: ConnectedState: updateQosBearerSessions: []
+04-28 23:06:51.219  5521  5521 D DN-102-C: ConnectedState: updateNetworkCapabilities: Capabilities not changed.
+04-28 23:06:51.220  5521  5521 D QOSCT-102: updateSessions: sessions size=0
+04-28 23:06:51.239  2951  3573 E RILC    : Unsupported unsolicited response code 1028
+04-28 23:06:51.244  5521  5521 D QtiGsmCdmaPhone: [1 ] handleMessage: Event: 58
+04-28 23:06:51.244  5521  5521 D GsmCdmaPhone: [1] Event BarringInfoChanged Received
+04-28 23:06:51.245  5521  5521 D QtiGsmCdmaPhone: [0 ] handleMessage: Event: 58
+04-28 23:06:51.245  5521  5521 D GsmCdmaPhone: [0] Event BarringInfoChanged Received
+04-28 23:06:51.356  2951  3573 E RILC    : Unsupported unsolicited response code 1028
+04-28 23:06:51.382  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data1
+04-28 23:06:51.382  5521  5521 D DNC-0   : getAllActiveCellularInterfaces All Interfaces: rmnet_data4
+04-28 23:06:51.387  5521  5521 D DNC-1   : getAllActiveCellularInterfaces All Interfaces: rmnet_data2
+04-28 23:06:51.400  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.400  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.405  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.405  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.412  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.412  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.415  5521  6551 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.415  5521  6551 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.426  5521  6551 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.426  5521  6551 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.429  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.429  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.432  5521  5521 D QtiGsmCdmaPhone: [0 ] handleMessage: Event: 58
+04-28 23:06:51.432  5521  5521 D GsmCdmaPhone: [0] Event BarringInfoChanged Received
+04-28 23:06:51.432  5521  5521 D QtiGsmCdmaPhone: [1 ] handleMessage: Event: 58
+04-28 23:06:51.432  5521  5521 D GsmCdmaPhone: [1] Event BarringInfoChanged Received
+04-28 23:06:51.434  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.434  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.437  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.437  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.440  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.440  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.444  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.444  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.447  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.447  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.471  5521  6551 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.471  5521  6551 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.474  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.474  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.478  5521  5570 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.478  5521  5570 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.486  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.486  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.500  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.500  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.503  5521  6505 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.503  5521  6505 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.507  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.507  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.510  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.510  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.510  5521  5521 D DNC-0   : handleMessage, msg.what = 5
+04-28 23:06:51.511  5521  5521 D DNC-0   : Re-evaluating 0 unsatisfied network requests in 0 groups,  due to VOICE_CALL_ENDED
+04-28 23:06:51.513  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.513  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.516  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.516  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.520  5521  6552 I MiuiCarrierConfigHelper: getBooleanCarrierConfigForSubId subId:4key: config_voicemail_ignore_sim config: false
+04-28 23:06:51.520  5521  6552 D GsmCdmaPhone: [0] getVoiceMailNumber: from IccRecords number=[****]
+04-28 23:06:51.544  2951  3573 E RILC    : Unsupported unsolicited response code 1028
+04-28 23:06:52.073  2951  3573 I qcrilNrd: RIL Response bytes written:4
+04-28 23:06:52.073  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 79, ret: -1, errno: 11, errStr: Try again, socket fd: 32
+04-28 23:06:52.073  2951  3573 I qcrilNrd: RIL Response bytes written:16
+04-28 23:06:52.073  1894  3705 D RequestManager: [RequestManager.cpp: 341] [Loc_hal_worker(1894,3705)] listenForResponses: record_stream_get_next: recordLen: 16, ret: 0, errno: 0, errStr: Success, socket fd: 32
+04-28 23:06:52.073  1894  3705 D RequestManager: [RequestManager.cpp: 358] [Loc_hal_worker(1894,3705)] listenForResponses: Got a response parcel
+04-28 23:06:52.074  5521  6505 D RILJ    : Unsol response received; Sending ack to ril.cpp [PHONE0]
+04-28 23:06:52.075  5521  6505 D RILJ    : [UNSL]< UNSOL_LCE_INFO_RECV [{mType=0, mDownlinkCapacityKbps=0, mUplinkCapacityKbps=115}, {mType=1, mDownlinkCapacityKbps=0, mUplinkCapacityKbps=0}] [PHONE0]
+04-28 23:06:52.075  5521  5521 D QtiGsmCdmaPhone: [0 ] handleMessage: Event: 59
+04-28 23:06:52.075  5521  5521 D GsmCdmaPhone: [0] updateLinkCapacityEstimate: lce list=[{mType=0, mDownlinkCapacityKbps=0, mUplinkCapacityKbps=115}, {mType=1, mDownlinkCapacityKbps=0, mUplinkCapacityKbps=0}]
